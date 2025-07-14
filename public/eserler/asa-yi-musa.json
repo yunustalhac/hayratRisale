@@ -1,0 +1,197 @@
+{
+  "baslik": "asa-yi-musa",
+  "madde": [
+    {
+      "slug": "birinci-mesele",
+      "bolum": "Birinci Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 5
+    },
+    {
+      "slug": "ikinci-mesele",
+      "bolum": "İkinci Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 6
+    },
+    {
+      "slug": "ucuncu-mesele",
+      "bolum": "Üçüncü Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 9
+    },
+    {
+      "slug": "dorduncu-mesele",
+      "bolum": "Dördüncü Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 13
+    },
+    {
+      "slug": "besinci-mesele",
+      "bolum": "Beşinci Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 15
+    },
+    {
+      "slug": "altinci-mesele",
+      "bolum": "Altıncı Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 16
+    },
+    {
+      "slug": "yedinci-mesele",
+      "bolum": "Yedinci Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 20
+    },
+    {
+      "slug": "sekizinci-mesele",
+      "bolum": "Sekizinci Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 32
+    },
+    {
+      "slug": "dokuzuncu-mesele",
+      "bolum": "Dokuzuncu Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 46
+    },
+    {
+      "slug": "onuncu-mesele",
+      "bolum": "Onuncu Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 52
+    },
+    {
+      "slug": "on-birinci-mesele",
+      "bolum": "On Birinci Mes'ele",
+      "eser": "asa-yi-musa",
+      "sayfa": 66
+    },
+    {
+      "slug": "birinci-huccet-i-imaniye",
+      "bolum": "Birinci Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 86
+    },
+    {
+      "slug": "ikinci-huccet-i-imaniye",
+      "bolum": "İkinci Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 124
+    },
+    {
+      "slug": "ucuncu-huccet-i-imaniye",
+      "bolum": "Üçüncü Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 134
+    },
+    {
+      "slug": "dorduncu-huccet-i-imaniye",
+      "bolum": "Dördüncü Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 151
+    },
+    {
+      "slug": "besinci-huccet-i-imaniye",
+      "bolum": "Beşinci Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 155
+    },
+    {
+      "slug": "altinci-huccet-i-imaniye",
+      "bolum": "Altıncı Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 164
+    },
+    {
+      "slug": "yedinci-huccet-i-imaniye",
+      "bolum": "Yedinci Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 168
+    },
+    {
+      "slug": "sekizinci-huccet-i-imaniye",
+      "bolum": "Sekizinci Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 170
+    },
+    {
+      "slug": "dokuzuncu-huccet-i-imaniye",
+      "bolum": "Dokuzuncu Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 188
+    },
+    {
+      "slug": "onuncu-huccet-i-imaniye",
+      "bolum": "Onuncu Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 200
+    },
+    {
+      "slug": "on-birinci-huccet-i-imaniye",
+      "bolum": "On Birinci Huccet-i Îmâniye",
+      "eser": "asa-yi-musa",
+      "sayfa": 207
+    },
+    {
+      "slug": "yirminci-lem-a",
+      "bolum": "Yirminci Lem‘a",
+      "eser": "asa-yi-musa",
+      "sayfa": 221
+    },
+    {
+      "slug": "yirmi-birinci-lem-a",
+      "bolum": "Yirmi Birinci Lem‘a",
+      "eser": "asa-yi-musa",
+      "sayfa": 233
+    },
+    {
+      "slug": "yazi-mektubu",
+      "bolum": "Yazı Mektubu",
+      "eser": "asa-yi-musa",
+      "sayfa": 243
+    },
+    {
+      "slug": "on-dokuzuncu-lem-a",
+      "bolum": "On Dokuzuncu Lem‘a",
+      "eser": "asa-yi-musa",
+      "sayfa": 244
+    },
+    {
+      "slug": "sukur-risalesi",
+      "bolum": "Şükür Risâlesi",
+      "eser": "asa-yi-musa",
+      "sayfa": 255
+    },
+    {
+      "slug": "hulasatul-hulasa",
+      "bolum": "Hulâsatü'l-Hulâsa",
+      "eser": "asa-yi-musa",
+      "sayfa": 259
+    },
+    {
+      "slug": "hizmet-mektuplari",
+      "bolum": "Hizmet Mektupları",
+      "eser": "asa-yi-musa",
+      "sayfa": 264
+    },
+    {
+      "slug": "lugatce",
+      "bolum": "Lugatçe",
+      "eser": "asa-yi-musa",
+      "sayfa": 280
+    },
+    {
+      "slug": "lugatce",
+      "bolum": "Lugatçe",
+      "eser": "asa-yi-musa",
+      "sayfa": 280
+    },
+    {
+      "slug": "dua",
+      "bolum": "Duâ",
+      "eser": "asa-yi-musa",
+      "sayfa": 318
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "baslik": "isaratul-i-caz",
+  "madde": [
+    {
+      "slug": "tenbih",
+      "bolum": "Tenbîh",
+      "eser": "isaratul-i-caz",
+      "sayfa": 3
+    },
+    {
+      "slug": "ifadetul-meram",
+      "bolum": "İfâdetü'l-Merâm",
+      "eser": "isaratul-i-caz",
+      "sayfa": 6
+    },
+    {
+      "slug": "kuran-nedir-ta-rifi-nasildir",
+      "bolum": "Kur'ân nedir? Ta‘rîfi nasıldır?",
+      "eser": "isaratul-i-caz",
+      "sayfa": 8
+    },    {
+      "slug": "makasid-i-kuraniye",
+      "bolum": "Makāsıd-ı Kur'âniye",
+      "eser": "isaratul-i-caz",
+      "sayfa": 10
+    },
+    {
+      "slug": "sure-i-fatiha-1",
+      "bolum": "Sûre-i Fâtiha (1)",
+      "eser": "isaratul-i-caz",
+      "sayfa": 12
+    },
+    {
+      "slug": "sure-i-fatiha-1-2",
+      "bolum": "Sûre-i Fâtiha (1-2)",
+      "eser": "isaratul-i-caz",
+      "sayfa": 14
+    },
+    {
+      "slug": "sure-i-fatiha-2",
+      "bolum": "Sûre-i Fâtiha, 2",
+      "eser": "isaratul-i-caz",
+      "sayfa": 15
+    },
+    {
+      "slug": "sure-i-fatiha-2-3",
+      "bolum": "Sûre-i Fâtiha, 2-3",
+      "eser": "isaratul-i-caz",
+      "sayfa": 16
+    },
+    {
+      "slug": "sure-i-fatiha-4",
+      "bolum": "Sûre-i Fâtiha, 4",
+      "eser": "isaratul-i-caz",
+      "sayfa": 17
+    },
+    {
+      "slug": "sure-i-fatiha-5",
+      "bolum": "Sûre-i Fâtiha, 5",
+      "eser": "isaratul-i-caz",
+      "sayfa": 18
+    },
+    {
+      "slug": "sure-i-fatiha-6",
+      "bolum": "Sûre-i Fâtiha, 6",
+      "eser": "isaratul-i-caz",
+      "sayfa": 20
+    },
+    {
+      "slug": "sure-i-fatiha-7",
+      "bolum": "Sûre-i Fâtiha, 7",
+      "eser": "isaratul-i-caz",
+      "sayfa": 22
+    },
+    {
+      "slug": "sure-i-bakara",
+      "bolum": "Sûre-i Bakara",
+      "eser": "isaratul-i-caz",
+      "sayfa": 27
+    },
+    {
+      "slug": "sure-i-bakara-1",
+      "bolum": "Sûre-i Bakara, 1",
+      "eser": "isaratul-i-caz",
+      "sayfa": 28
+    },
+    {
+      "slug": "sure-i-bakara-2",
+      "bolum": "Sûre-i Bakara, 2",
+      "eser": "isaratul-i-caz",
+      "sayfa": 32
+    },
+    {
+      "slug": "sure-i-bakara-3",
+      "bolum": "Sûre-i Bakara, 3",
+      "eser": "isaratul-i-caz",
+      "sayfa": 37
+    },
+    {
+      "slug": "sure-i-bakara-4",
+      "bolum": "Sûre-i Bakara, 4",
+      "eser": "isaratul-i-caz",
+      "sayfa": 42
+    },
+    {
+      "slug": "sure-i-bakara-5",
+      "bolum": "Sûre-i Bakara, 5",
+      "eser": "isaratul-i-caz",
+      "sayfa": 55
+    },
+    {
+      "slug": "sure-i-bakara-6",
+      "bolum": "Sûre-i Bakara, 6",
+      "eser": "isaratul-i-caz",
+      "sayfa": 59
+    },
+    {
+      "slug": "sure-i-bakara-7",
+      "bolum": "Sûre-i Bakara, 7",
+      "eser": "isaratul-i-caz",
+      "sayfa": 65
+    },
+    {
+      "slug": "sure-i-bakara-8",
+      "bolum": "Sûre-i Bakara, 8",
+      "eser": "isaratul-i-caz",
+      "sayfa": 77
+    },
+    {
+      "slug": "sure-i-bakara-9-10",
+      "bolum": "Sûre-i Bakara, 9-10",
+      "eser": "isaratul-i-caz",
+      "sayfa": 80
+    },
+    {
+      "slug": "sure-i-bakara-11-12",
+      "bolum": "Sûre-i Bakara, 11-12",
+      "eser": "isaratul-i-caz",
+      "sayfa": 87
+    },
+    {
+      "slug": "sure-i-bakara-13",
+      "bolum": "Sûre-i Bakara, 13",
+      "eser": "isaratul-i-caz",
+      "sayfa": 91
+    },
+    {
+      "slug": "sure-i-bakara-14-15",
+      "bolum": "Sûre-i Bakara, 14-15",
+      "eser": "isaratul-i-caz",
+      "sayfa": 95
+    },
+    {
+      "slug": "sure-i-bakara-16",
+      "bolum": "Sûre-i Bakara, 16",
+      "eser": "isaratul-i-caz",
+      "sayfa": 101
+    },
+    {
+      "slug": "sure-i-bakara-17-20",
+      "bolum": "Sûre-i Bakara, 17-20",
+      "eser": "isaratul-i-caz",
+      "sayfa": 104
+    },
+    {
+      "slug": "sure-i-bakara-21-22",
+      "bolum": "Sûre-i Bakara, 21-22",
+      "eser": "isaratul-i-caz",
+      "sayfa": 132
+    },
+    {
+      "slug": "sure-i-bakara-23-24",
+      "bolum": "Sûre-i Bakara, 23-24",
+      "eser": "isaratul-i-caz",
+      "sayfa": 155
+    },
+    {
+      "slug": "sure-i-bakara-25",
+      "bolum": "Sûre-i Bakara, 25",
+      "eser": "isaratul-i-caz",
+      "sayfa": 192
+    },
+    {
+      "slug": "sure-i-bakara-26-27",
+      "bolum": "Sûre-i Bakara, 26-27",
+      "eser": "isaratul-i-caz",
+      "sayfa": 207
+    },
+    {
+      "slug": "sure-i-bakara-28",
+      "bolum": "Sûre-i Bakara, 28",
+      "eser": "isaratul-i-caz",
+      "sayfa": 228
+    },
+    {
+      "slug": "sure-i-bakara-29",
+      "bolum": "Sûre-i Bakara, 29",
+      "eser": "isaratul-i-caz",
+      "sayfa": 236
+    },
+    {
+      "slug": "sure-i-bakara-30",
+      "bolum": "Sûre-i Bakara, 30",
+      "eser": "isaratul-i-caz",
+      "sayfa": 246
+    },
+    {
+      "slug": "sure-i-bakara-31-33",
+      "bolum": "Sûre-i Bakara, 31-33",
+      "eser": "isaratul-i-caz",
+      "sayfa": 256
+    },
+    {
+      "slug": "ecnebi-feylesoflarin-sehadetleri",
+      "bolum": "Ecnebî feylesofların şehâdetleri",
+      "eser": "isaratul-i-caz",
+      "sayfa": 263
+    }
+  ]
+}

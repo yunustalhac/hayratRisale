@@ -1,0 +1,191 @@
+{
+  "baslik": "lemalar",
+  "madde": [
+    {
+      "slug": "birinci-lem-a",
+      "bolum": "Birinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 1
+    },
+    {
+      "slug": "ikinci-lem-a",
+      "bolum": " İkinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 4
+    },
+    {
+      "slug": "ucuncu-lem-a",
+      "bolum": " Üçüncü Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 10
+    },
+    {
+      "slug": "dorduncu-lem-a",
+      "bolum": " Dördüncü Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 15
+    },
+    {
+      "slug": "besinci-lem-a",
+      "bolum": " Beşinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 23
+    },
+    {
+      "slug": "yedinci-lem-a",
+      "bolum": " Yedinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 24
+    },
+    {
+      "slug": "sekizinci-lem-a",
+      "bolum": " Sekizinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 32
+    },
+    {
+      "slug": "dokuzuncu-lem-a",
+      "bolum": " Dokuzuncu Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 33
+    },
+    {
+      "slug": "onuncu-lem-a",
+      "bolum": " Onuncu Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 42
+    },
+    {
+      "slug": "onbirinci-lem-a",
+      "bolum": " Onbirinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 51
+    },
+    {
+      "slug": "onikinci-lem-a",
+      "bolum": " Onikinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 63
+    },
+    {
+      "slug": "onucuncu-lem-a",
+      "bolum": " Onüçüncü Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 71
+    },
+    {
+      "slug": "ondorduncu-lem-a",
+      "bolum": " Ondördüncü Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 92
+    },
+    {
+      "slug": "onbesinci-lem-a",
+      "bolum": " Onbeşinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 104
+    },
+    {
+      "slug": "onaltinci-lem-a",
+      "bolum": " Onaltıncı Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 105
+    },
+    {
+      "slug": "onyedinci-lem-a",
+      "bolum": " Onyedinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 116
+    },
+    {
+      "slug": "onsekizinci-lem-a",
+      "bolum": " Onsekizinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 146
+    },
+    {
+      "slug": "ondokuzuncu-lem-a",
+      "bolum": " Ondokuzuncu Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 147
+    },
+    {
+      "slug": "yirminci-lem-a",
+      "bolum": " Yirminci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 155
+    },
+    {
+      "slug": "yirmibirinci-lem-a",
+      "bolum": " Yirmibirinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 166
+    },
+    {
+      "slug": "yazi-mektubu",
+      "bolum": " Yazı Mektubu",
+      "eser": "lemalar",
+      "sayfa": 175
+    },
+    {
+      "slug": "yirmiikinci-lem-a",
+      "bolum": " Yirmiikinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 176
+    },
+    {
+      "slug": "yirmiucuncu-lem-a",
+      "bolum": " Yirmiüçüncü Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 185
+    },
+    {
+      "slug": "yirmidorduncu-lem-a",
+      "bolum": " Yirmidördüncü Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 205
+    },
+    {
+      "slug": "yirmibesinci-lem-a",
+      "bolum": " Yirmibeşinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 211
+    },
+    {
+      "slug": "onyedinci-mektup",
+      "bolum": " Onyedinci Mektup",
+      "eser": "lemalar",
+      "sayfa": 229
+    },
+    {
+      "slug": "yirmialtinci-lem-a",
+      "bolum": " Yirmialtıncı Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 232
+    },
+    {
+      "slug": "yirmibirinci-mektup",
+      "bolum": " Yirmibirinci Mektup",
+      "eser": "lemalar",
+      "sayfa": 282
+    },
+    {
+      "slug": "yirmisekizinci-lem-a",
+      "bolum": " Yirmisekizinci Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 285
+    },
+    {
+      "slug": "yirmidokuzuncu-lem-a",
+      "bolum": " Yirmidokuzuncu Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 324
+    },
+    {
+      "slug": "otuzuncu-lem-a",
+      "bolum": " Otuzuncu Lem‘a",
+      "eser": "lemalar",
+      "sayfa": 363
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "baslik": "zulfikar",
+  "madde": [
+    {
+      "slug": "risale-i-nurun-felsefenin-yalniz-muzir-kismina-hucum-ettigine-dair-bir-mektub",
+      "bolum": "Risâle-i Nûr’un, felsefenin yalnız muzır kısmına hücûm ettiğine dâir bir mektûb",
+      "eser": "zulfikar",
+      "sayfa": 2
+    },
+    {
+      "slug": "risale-i-nur-hakkinda-gelecek-i-tirazlara-cevab-olmak-uzere-yazilan-bir-mektub",
+      "bolum": "Risâle-i Nûr hakkında gelecek i‘tirâzlara cevab olmak üzere yazılan bir mektûb",
+      "eser": "zulfikar",
+      "sayfa": 3
+    },
+    {
+      "slug": "onuncu-soz",
+      "bolum": "Onuncu  Söz",
+      "eser": "zulfikar",
+      "sayfa": 5
+    },
+    {
+      "slug": "yirmi-besinci-soz",
+      "bolum": "Yirmi Beşinci  Söz",
+      "eser": "zulfikar",
+      "sayfa": 79
+    },
+    {
+      "slug": "on-dokuzuncu-mektub",
+      "bolum": "On Dokuzuncu Mektub",
+      "eser": "zulfikar",
+      "sayfa": 225
+    }
+  ]
+}

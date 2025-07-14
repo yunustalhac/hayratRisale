@@ -1,0 +1,149 @@
+{
+  "baslik": "sozler",
+  "madde": [
+    {
+      "slug": "birinci-soz",
+      "bolum": "Birinci Söz",
+      "eser": "sozler",
+      "sayfa": 1
+    },
+    {
+      "slug": "ikinci-soz",
+      "bolum": "İkinci Söz",
+      "eser": "sozler",
+      "sayfa": 3
+    },
+    {
+      "slug": "ucuncu-soz",
+      "bolum": "Üçüncü Söz",
+      "eser": "sozler",
+      "sayfa": 5
+    },
+    {
+      "slug": "dorduncu-soz",
+      "bolum": "Dördüncü Söz",
+      "eser": "sozler",
+      "sayfa": 7
+    },
+    {
+      "slug": "besinci-soz",
+      "bolum": "Beşinci Söz",
+      "eser": "sozler",
+      "sayfa": 9
+    },
+    {
+      "slug": "altinci-soz",
+      "bolum": "Altıncı Söz",
+      "eser": "sozler",
+      "sayfa": 11
+    },
+    {
+      "slug": "yedinci-soz",
+      "bolum": "Yedinci Söz",
+      "eser": "sozler",
+      "sayfa": 15
+    },
+    {
+      "slug": "sekizinci-soz",
+      "bolum": "Sekizinci Söz",
+      "eser": "sozler",
+      "sayfa": 18
+    },
+    {
+      "slug": "dokuzuncu-soz",
+      "bolum": "Dokuzuncu Söz",
+      "eser": "sozler",
+      "sayfa": 24
+    },
+    {
+      "slug": "on-dorduncu-soz",
+      "bolum": "On Dördüncü Söz",
+      "eser": "sozler",
+      "sayfa": 35
+    },
+    {
+      "slug": "on-besinci-soz",
+      "bolum": "On Beşinci Söz",
+      "eser": "sozler",
+      "sayfa": 46
+    },
+    {
+      "slug": "on-yedinci-soz",
+      "bolum": "On Yedinci Söz",
+      "eser": "sozler",
+      "sayfa": 61
+    },
+    {
+      "slug": "on-sekizinci-soz",
+      "bolum": "On Sekizinci Söz",
+      "eser": "sozler",
+      "sayfa": 89
+    },
+    {
+      "slug": "yirmi-birinci-soz",
+      "bolum": "Yirmi Birinci Söz",
+      "eser": "sozler",
+      "sayfa": 93
+    },
+    {
+      "slug": "yirmi-ucuncu-soz",
+      "bolum": "Yirmi Üçüncü Söz",
+      "eser": "sozler",
+      "sayfa": 103
+    },
+    {
+      "slug": "yirmi-dorduncu-soz",
+      "bolum": "Yirmi Dördüncü Söz",
+      "eser": "sozler",
+      "sayfa": 123
+    },
+    {
+      "slug": "yirmi-yedinci-soz",
+      "bolum": "Yirmi Yedinci Söz",
+      "eser": "sozler",
+      "sayfa": 154
+    },
+    {
+      "slug": "yirmi-sekizinci-soz",
+      "bolum": "Yirmi Sekizinci Söz",
+      "eser": "sozler",
+      "sayfa": 171
+    },
+    {
+      "slug": "yirmi-dokuzuncu-soz",
+      "bolum": "Yirmi Dokuzuncu Söz",
+      "eser": "sozler",
+      "sayfa": 180
+    },
+    {
+      "slug": "otuzuncu-soz",
+      "bolum": "Otuzuncu Söz",
+      "eser": "sozler",
+      "sayfa": 219
+    },
+    {
+      "slug": "otuz-birinci-soz",
+      "bolum": "Otuz Birinci Söz",
+      "eser": "sozler",
+      "sayfa": 241
+    },
+    {
+      "slug": "otuz-ikinci-soz",
+      "bolum": "Otuz İkinci Söz",
+      "eser": "sozler",
+      "sayfa": 266
+    },
+    {
+      "slug": "lemeat",
+      "bolum": "Lemeât",
+      "eser": "sozler",
+      "sayfa": 320
+    },
+    {
+      "slug": "dua",
+      "bolum": "Duâ",
+      "eser": "sozler",
+      "sayfa": 379
+    }
+  ]
+}

@@ -1,0 +1,1403 @@
+{
+  "baslik": "barla-lahikasi",
+  "madde": [
+    {
+      "slug": "yirmi-yedinci-mektubun-mukaddimesi",
+      "bolum": "Yirmi Yedinci Mektub’un mukaddimesi",
+      "eser": "barla-lahikasi",
+      "sayfa": 1
+    },
+    {
+      "slug": "yirmi-sekizinci-mektubun-yedinci-meselesi",
+      "bolum": "Yirmi Sekizinci Mektub’un Yedinci Mes’elesi",
+      "eser": "barla-lahikasi",
+      "sayfa": 4
+    },
+    {
+      "slug": "mektub-1",
+      "bolum": "Mektub  1",
+      "eser": "barla-lahikasi",
+      "sayfa": 14
+    },
+    {
+      "slug": "mektub-2",
+      "bolum": "Mektub  2",
+      "eser": "barla-lahikasi",
+      "sayfa": 16
+    },
+    {
+      "slug": "mektub-3",
+      "bolum": "Mektub  3",
+      "eser": "barla-lahikasi",
+      "sayfa": 17
+    },
+    {
+      "slug": "mektub-4",
+      "bolum": "Mektub  4",
+      "eser": "barla-lahikasi",
+      "sayfa": 18
+    },
+    {
+      "slug": "mektub-8",
+      "bolum": "Mektub  8",
+      "eser": "barla-lahikasi",
+      "sayfa": 19
+    },
+    {
+      "slug": "mektub-10",
+      "bolum": "Mektub  10",
+      "eser": "barla-lahikasi",
+      "sayfa": 20
+    },
+    {
+      "slug": "mektub-12",
+      "bolum": "Mektub  12",
+      "eser": "barla-lahikasi",
+      "sayfa": 21
+    },
+    {
+      "slug": "mektub-16",
+      "bolum": "Mektub  16",
+      "eser": "barla-lahikasi",
+      "sayfa": 22
+    },
+    {
+      "slug": "mektub-17",
+      "bolum": "Mektub  17",
+      "eser": "barla-lahikasi",
+      "sayfa": 23
+    },
+    {
+      "slug": "mektub-19",
+      "bolum": "Mektub  19",
+      "eser": "barla-lahikasi",
+      "sayfa": 24
+    },
+    {
+      "slug": "mektub-20",
+      "bolum": "Mektub  20",
+      "eser": "barla-lahikasi",
+      "sayfa": 25
+    },
+    {
+      "slug": "mektub-22",
+      "bolum": "Mektub  22",
+      "eser": "barla-lahikasi",
+      "sayfa": 26
+    },
+    {
+      "slug": "mektub-23",
+      "bolum": "Mektub  23",
+      "eser": "barla-lahikasi",
+      "sayfa": 27
+    },
+    {
+      "slug": "mektub-24",
+      "bolum": "Mektub  24",
+      "eser": "barla-lahikasi",
+      "sayfa": 29
+    },
+    {
+      "slug": "mektub-27",
+      "bolum": "Mektub  27",
+      "eser": "barla-lahikasi",
+      "sayfa": 30
+    },
+    {
+      "slug": "mektub-28",
+      "bolum": "Mektub  28",
+      "eser": "barla-lahikasi",
+      "sayfa": 31
+    },
+    {
+      "slug": "mektub-32",
+      "bolum": "Mektub  32",
+      "eser": "barla-lahikasi",
+      "sayfa": 32
+    },
+    {
+      "slug": "mektub-33",
+      "bolum": "Mektub  33",
+      "eser": "barla-lahikasi",
+      "sayfa": 33
+    },
+    {
+      "slug": "mektub-36",
+      "bolum": "Mektub  36",
+      "eser": "barla-lahikasi",
+      "sayfa": 34
+    },
+    {
+      "slug": "mektub-39",
+      "bolum": "Mektub  39",
+      "eser": "barla-lahikasi",
+      "sayfa": 35
+    },
+    {
+      "slug": "mektub-42",
+      "bolum": "Mektub  42",
+      "eser": "barla-lahikasi",
+      "sayfa": 36
+    },
+    {
+      "slug": "mektub-46",
+      "bolum": "Mektub  46",
+      "eser": "barla-lahikasi",
+      "sayfa": 37
+    },
+    {
+      "slug": "mektub-47",
+      "bolum": "Mektub  47",
+      "eser": "barla-lahikasi",
+      "sayfa": 38
+    },
+    {
+      "slug": "mektub-48",
+      "bolum": "Mektub  48",
+      "eser": "barla-lahikasi",
+      "sayfa": 39
+    },
+    {
+      "slug": "mektub-49",
+      "bolum": "Mektub  49",
+      "eser": "barla-lahikasi",
+      "sayfa": 40
+    },
+    {
+      "slug": "mektub-52",
+      "bolum": "Mektub  52",
+      "eser": "barla-lahikasi",
+      "sayfa": 41
+    },
+    {
+      "slug": "mektub-53",
+      "bolum": "Mektub  53",
+      "eser": "barla-lahikasi",
+      "sayfa": 42
+    },
+    {
+      "slug": "mektub-54",
+      "bolum": "Mektub  54",
+      "eser": "barla-lahikasi",
+      "sayfa": 43
+    },
+    {
+      "slug": "mektub-56",
+      "bolum": "Mektub  56",
+      "eser": "barla-lahikasi",
+      "sayfa": 44
+    },
+    {
+      "slug": "mektub-58",
+      "bolum": "Mektub  58",
+      "eser": "barla-lahikasi",
+      "sayfa": 45
+    },
+    {
+      "slug": "mektub-60",
+      "bolum": "Mektub  60",
+      "eser": "barla-lahikasi",
+      "sayfa": 46
+    },
+    {
+      "slug": "mektub-62",
+      "bolum": "Mektub  62",
+      "eser": "barla-lahikasi",
+      "sayfa": 47
+    },
+    {
+      "slug": "mektub-63",
+      "bolum": "Mektub  63",
+      "eser": "barla-lahikasi",
+      "sayfa": 51
+    },
+    {
+      "slug": "mektub-64",
+      "bolum": "Mektub  64",
+      "eser": "barla-lahikasi",
+      "sayfa": 52
+    },
+    {
+      "slug": "mektub-65",
+      "bolum": "Mektub  65",
+      "eser": "barla-lahikasi",
+      "sayfa": 53
+    },
+    {
+      "slug": "mektub-67",
+      "bolum": "Mektub  67",
+      "eser": "barla-lahikasi",
+      "sayfa": 54
+    },
+    {
+      "slug": "mektub-68",
+      "bolum": "Mektub  68",
+      "eser": "barla-lahikasi",
+      "sayfa": 55
+    },
+    {
+      "slug": "mektub-69",
+      "bolum": "Mektub  69",
+      "eser": "barla-lahikasi",
+      "sayfa": 57
+    },
+    {
+      "slug": "mektub-70",
+      "bolum": "Mektub  70",
+      "eser": "barla-lahikasi",
+      "sayfa": 58
+    },
+    {
+      "slug": "mektub-72",
+      "bolum": "Mektub  72",
+      "eser": "barla-lahikasi",
+      "sayfa": 59
+    },
+    {
+      "slug": "mektub-74",
+      "bolum": "Mektub  74",
+      "eser": "barla-lahikasi",
+      "sayfa": 60
+    },
+    {
+      "slug": "mektub-75",
+      "bolum": "Mektub  75",
+      "eser": "barla-lahikasi",
+      "sayfa": 61
+    },
+    {
+      "slug": "mektub-77",
+      "bolum": "Mektub  77",
+      "eser": "barla-lahikasi",
+      "sayfa": 62
+    },
+    {
+      "slug": "mektub-78",
+      "bolum": "Mektub  78",
+      "eser": "barla-lahikasi",
+      "sayfa": 63
+    },
+    {
+      "slug": "mektub-80",
+      "bolum": "Mektub  80",
+      "eser": "barla-lahikasi",
+      "sayfa": 64
+    },
+    {
+      "slug": "mektub-81",
+      "bolum": "Mektub  81",
+      "eser": "barla-lahikasi",
+      "sayfa": 66
+    },
+    {
+      "slug": "mektub-82",
+      "bolum": "Mektub  82",
+      "eser": "barla-lahikasi",
+      "sayfa": 67
+    },
+    {
+      "slug": "mektub-83",
+      "bolum": "Mektub  83",
+      "eser": "barla-lahikasi",
+      "sayfa": 68
+    },
+    {
+      "slug": "mektub-84",
+      "bolum": "Mektub  84",
+      "eser": "barla-lahikasi",
+      "sayfa": 70
+    },
+    {
+      "slug": "mektub-86",
+      "bolum": "Mektub  86",
+      "eser": "barla-lahikasi",
+      "sayfa": 71
+    },
+    {
+      "slug": "mektub-87",
+      "bolum": "Mektub  87",
+      "eser": "barla-lahikasi",
+      "sayfa": 72
+    },
+    {
+      "slug": "mektub-88",
+      "bolum": "Mektub  88",
+      "eser": "barla-lahikasi",
+      "sayfa": 73
+    },
+    {
+      "slug": "mektub-89",
+      "bolum": "Mektub  89",
+      "eser": "barla-lahikasi",
+      "sayfa": 74
+    },
+    {
+      "slug": "mektub-90",
+      "bolum": "Mektub  90",
+      "eser": "barla-lahikasi",
+      "sayfa": 77
+    },
+    {
+      "slug": "mektub-91",
+      "bolum": "Mektub  91",
+      "eser": "barla-lahikasi",
+      "sayfa": 78
+    },
+    {
+      "slug": "mektub-92",
+      "bolum": "Mektub  92",
+      "eser": "barla-lahikasi",
+      "sayfa": 79
+    },
+    {
+      "slug": "mektub-94",
+      "bolum": "Mektub  94",
+      "eser": "barla-lahikasi",
+      "sayfa": 81
+    },
+    {
+      "slug": "mektub-95",
+      "bolum": "Mektub  95",
+      "eser": "barla-lahikasi",
+      "sayfa": 82
+    },
+    {
+      "slug": "mektub-96",
+      "bolum": "Mektub  96",
+      "eser": "barla-lahikasi",
+      "sayfa": 83
+    },
+    {
+      "slug": "mektub-97",
+      "bolum": "Mektub  97",
+      "eser": "barla-lahikasi",
+      "sayfa": 85
+    },
+    {
+      "slug": "mektub-100",
+      "bolum": "Mektub  100",
+      "eser": "barla-lahikasi",
+      "sayfa": 86
+    },
+    {
+      "slug": "mektub-102",
+      "bolum": "Mektub  102",
+      "eser": "barla-lahikasi",
+      "sayfa": 87
+    },
+    {
+      "slug": "mektub-103",
+      "bolum": "Mektub  103",
+      "eser": "barla-lahikasi",
+      "sayfa": 88
+    },
+    {
+      "slug": "mektub-104",
+      "bolum": "Mektub  104",
+      "eser": "barla-lahikasi",
+      "sayfa": 89
+    },
+    {
+      "slug": "mektub-105",
+      "bolum": "Mektub  105",
+      "eser": "barla-lahikasi",
+      "sayfa": 92
+    },
+    {
+      "slug": "mektub-106",
+      "bolum": "Mektub  106",
+      "eser": "barla-lahikasi",
+      "sayfa": 93
+    },
+    {
+      "slug": "mektub-108",
+      "bolum": "Mektub  108",
+      "eser": "barla-lahikasi",
+      "sayfa": 94
+    },
+    {
+      "slug": "mektub-109",
+      "bolum": "Mektub  109",
+      "eser": "barla-lahikasi",
+      "sayfa": 96
+    },
+    {
+      "slug": "mektub-110",
+      "bolum": "Mektub  110",
+      "eser": "barla-lahikasi",
+      "sayfa": 97
+    },
+    {
+      "slug": "mektub-111",
+      "bolum": "Mektub  111",
+      "eser": "barla-lahikasi",
+      "sayfa": 98
+    },
+    {
+      "slug": "mektub-112",
+      "bolum": "Mektub  112",
+      "eser": "barla-lahikasi",
+      "sayfa": 99
+    },
+    {
+      "slug": "mektub-113",
+      "bolum": "Mektub  113",
+      "eser": "barla-lahikasi",
+      "sayfa": 100
+    },
+    {
+      "slug": "mektub-114",
+      "bolum": "Mektub  114",
+      "eser": "barla-lahikasi",
+      "sayfa": 101
+    },
+    {
+      "slug": "mektub-115",
+      "bolum": "Mektub  115",
+      "eser": "barla-lahikasi",
+      "sayfa": 104
+    },
+    {
+      "slug": "mektub-116",
+      "bolum": "Mektub  116",
+      "eser": "barla-lahikasi",
+      "sayfa": 105
+    },
+    {
+      "slug": "mektub-117",
+      "bolum": "Mektub  117",
+      "eser": "barla-lahikasi",
+      "sayfa": 108
+    },
+    {
+      "slug": "mektub-119",
+      "bolum": "Mektub  119",
+      "eser": "barla-lahikasi",
+      "sayfa": 110
+    },
+    {
+      "slug": "mektub-120",
+      "bolum": "Mektub  120",
+      "eser": "barla-lahikasi",
+      "sayfa": 111
+    },
+    {
+      "slug": "mektub-121",
+      "bolum": "Mektub  121",
+      "eser": "barla-lahikasi",
+      "sayfa": 114
+    },
+    {
+      "slug": "mektub-122",
+      "bolum": "Mektub  122",
+      "eser": "barla-lahikasi",
+      "sayfa": 116
+    },
+    {
+      "slug": "mektub-123",
+      "bolum": "Mektub  123",
+      "eser": "barla-lahikasi",
+      "sayfa": 117
+    },
+    {
+      "slug": "mektub-124",
+      "bolum": "Mektub  124",
+      "eser": "barla-lahikasi",
+      "sayfa": 118
+    },
+    {
+      "slug": "mektub-125",
+      "bolum": "Mektub  125",
+      "eser": "barla-lahikasi",
+      "sayfa": 120
+    },
+    {
+      "slug": "mektub-127",
+      "bolum": "Mektub  127",
+      "eser": "barla-lahikasi",
+      "sayfa": 121
+    },
+    {
+      "slug": "mektub-128",
+      "bolum": "Mektub  128",
+      "eser": "barla-lahikasi",
+      "sayfa": 122
+    },
+    {
+      "slug": "mektub-129",
+      "bolum": "Mektub  129",
+      "eser": "barla-lahikasi",
+      "sayfa": 123
+    },
+    {
+      "slug": "mektub-130",
+      "bolum": "Mektub  130",
+      "eser": "barla-lahikasi",
+      "sayfa": 125
+    },
+    {
+      "slug": "mektub-132",
+      "bolum": "Mektub  132",
+      "eser": "barla-lahikasi",
+      "sayfa": 127
+    },
+    {
+      "slug": "mektub-133",
+      "bolum": "Mektub  133",
+      "eser": "barla-lahikasi",
+      "sayfa": 130
+    },
+    {
+      "slug": "mektub-135",
+      "bolum": "Mektub  135",
+      "eser": "barla-lahikasi",
+      "sayfa": 131
+    },
+    {
+      "slug": "mektub-136",
+      "bolum": "Mektub  136",
+      "eser": "barla-lahikasi",
+      "sayfa": 132
+    },
+    {
+      "slug": "mektub-137",
+      "bolum": "Mektub  137",
+      "eser": "barla-lahikasi",
+      "sayfa": 135
+    },
+    {
+      "slug": "mektub-138",
+      "bolum": "Mektub  138",
+      "eser": "barla-lahikasi",
+      "sayfa": 138
+    },
+    {
+      "slug": "mektub-139",
+      "bolum": "Mektub  139",
+      "eser": "barla-lahikasi",
+      "sayfa": 141
+    },
+    {
+      "slug": "mektub-140",
+      "bolum": "Mektub  140",
+      "eser": "barla-lahikasi",
+      "sayfa": 142
+    },
+    {
+      "slug": "mektub-141",
+      "bolum": "Mektub  141",
+      "eser": "barla-lahikasi",
+      "sayfa": 145
+    },
+    {
+      "slug": "mektub-143",
+      "bolum": "Mektub  143",
+      "eser": "barla-lahikasi",
+      "sayfa": 146
+    },
+    {
+      "slug": "mektub-144",
+      "bolum": "Mektub  144",
+      "eser": "barla-lahikasi",
+      "sayfa": 147
+    },
+    {
+      "slug": "mektub-145",
+      "bolum": "Mektub  145",
+      "eser": "barla-lahikasi",
+      "sayfa": 149
+    },
+    {
+      "slug": "mektub-146",
+      "bolum": "Mektub  146",
+      "eser": "barla-lahikasi",
+      "sayfa": 153
+    },
+    {
+      "slug": "mektub-147",
+      "bolum": "Mektub  147",
+      "eser": "barla-lahikasi",
+      "sayfa": 156
+    },
+    {
+      "slug": "mektub-148",
+      "bolum": "Mektub  148",
+      "eser": "barla-lahikasi",
+      "sayfa": 157
+    },
+    {
+      "slug": "mektub-149",
+      "bolum": "Mektub  149",
+      "eser": "barla-lahikasi",
+      "sayfa": 159
+    },
+    {
+      "slug": "mektub-150",
+      "bolum": "Mektub  150",
+      "eser": "barla-lahikasi",
+      "sayfa": 160
+    },
+    {
+      "slug": "mektub-151",
+      "bolum": "Mektub  151",
+      "eser": "barla-lahikasi",
+      "sayfa": 162
+    },
+    {
+      "slug": "mektub-152",
+      "bolum": "Mektub  152",
+      "eser": "barla-lahikasi",
+      "sayfa": 163
+    },
+    {
+      "slug": "mektub-153",
+      "bolum": "Mektub  153",
+      "eser": "barla-lahikasi",
+      "sayfa": 164
+    },
+    {
+      "slug": "mektub-154",
+      "bolum": "Mektub  154",
+      "eser": "barla-lahikasi",
+      "sayfa": 167
+    },
+    {
+      "slug": "mektub-155",
+      "bolum": "Mektub  155",
+      "eser": "barla-lahikasi",
+      "sayfa": 170
+    },
+    {
+      "slug": "mektub-156",
+      "bolum": "Mektub  156",
+      "eser": "barla-lahikasi",
+      "sayfa": 175
+    },
+    {
+      "slug": "mektub-157",
+      "bolum": "Mektub  157",
+      "eser": "barla-lahikasi",
+      "sayfa": 176
+    },
+    {
+      "slug": "mektub-158",
+      "bolum": "Mektub  158",
+      "eser": "barla-lahikasi",
+      "sayfa": 177
+    },
+    {
+      "slug": "mektub-160",
+      "bolum": "Mektub  160",
+      "eser": "barla-lahikasi",
+      "sayfa": 178
+    },
+    {
+      "slug": "mektub-162",
+      "bolum": "Mektub  162",
+      "eser": "barla-lahikasi",
+      "sayfa": 181
+    },
+    {
+      "slug": "mektub-163",
+      "bolum": "Mektub  163",
+      "eser": "barla-lahikasi",
+      "sayfa": 182
+    },
+    {
+      "slug": "mektub-164",
+      "bolum": "Mektub  164",
+      "eser": "barla-lahikasi",
+      "sayfa": 184
+    },
+    {
+      "slug": "mektub-165",
+      "bolum": "Mektub  165",
+      "eser": "barla-lahikasi",
+      "sayfa": 185
+    },
+    {
+      "slug": "mektub-166",
+      "bolum": "Mektub  166",
+      "eser": "barla-lahikasi",
+      "sayfa": 186
+    },
+    {
+      "slug": "mektub-167",
+      "bolum": "Mektub  167",
+      "eser": "barla-lahikasi",
+      "sayfa": 187
+    },
+    {
+      "slug": "mektub-168",
+      "bolum": "Mektub  168",
+      "eser": "barla-lahikasi",
+      "sayfa": 188
+    },
+    {
+      "slug": "mektub-169",
+      "bolum": "Mektub  169",
+      "eser": "barla-lahikasi",
+      "sayfa": 189
+    },
+    {
+      "slug": "mektub-170",
+      "bolum": "Mektub  170",
+      "eser": "barla-lahikasi",
+      "sayfa": 190
+    },
+    {
+      "slug": "mektub-172",
+      "bolum": "Mektub  172",
+      "eser": "barla-lahikasi",
+      "sayfa": 191
+    },
+    {
+      "slug": "mektub-174",
+      "bolum": "Mektub  174",
+      "eser": "barla-lahikasi",
+      "sayfa": 192
+    },
+    {
+      "slug": "mektub-175",
+      "bolum": "Mektub  175",
+      "eser": "barla-lahikasi",
+      "sayfa": 193
+    },
+    {
+      "slug": "mektub-176",
+      "bolum": "Mektub  176",
+      "eser": "barla-lahikasi",
+      "sayfa": 194
+    },
+    {
+      "slug": "mektub-177",
+      "bolum": "Mektub  177",
+      "eser": "barla-lahikasi",
+      "sayfa": 195
+    },
+    {
+      "slug": "mektub-178",
+      "bolum": "Mektub  178",
+      "eser": "barla-lahikasi",
+      "sayfa": 197
+    },
+    {
+      "slug": "mektub-179",
+      "bolum": "Mektub  179",
+      "eser": "barla-lahikasi",
+      "sayfa": 198
+    },
+    {
+      "slug": "mektub-181",
+      "bolum": "Mektub  181",
+      "eser": "barla-lahikasi",
+      "sayfa": 200
+    },
+    {
+      "slug": "mektub-182",
+      "bolum": "Mektub  182",
+      "eser": "barla-lahikasi",
+      "sayfa": 202
+    },
+    {
+      "slug": "mektub-183",
+      "bolum": "Mektub  183",
+      "eser": "barla-lahikasi",
+      "sayfa": 203
+    },
+    {
+      "slug": "mektub-184",
+      "bolum": "Mektub  184",
+      "eser": "barla-lahikasi",
+      "sayfa": 204
+    },
+    {
+      "slug": "mektub-185",
+      "bolum": "Mektub  185",
+      "eser": "barla-lahikasi",
+      "sayfa": 205
+    },
+    {
+      "slug": "mektub-186",
+      "bolum": "Mektub  186",
+      "eser": "barla-lahikasi",
+      "sayfa": 206
+    },
+    {
+      "slug": "mektub-187",
+      "bolum": "Mektub  187",
+      "eser": "barla-lahikasi",
+      "sayfa": 207
+    },
+    {
+      "slug": "mektub-188",
+      "bolum": "Mektub  188",
+      "eser": "barla-lahikasi",
+      "sayfa": 208
+    },
+    {
+      "slug": "mektub-189",
+      "bolum": "Mektub  189",
+      "eser": "barla-lahikasi",
+      "sayfa": 209
+    },
+    {
+      "slug": "mektub-190",
+      "bolum": "Mektub  190",
+      "eser": "barla-lahikasi",
+      "sayfa": 210
+    },
+    {
+      "slug": "mektub-191",
+      "bolum": "Mektub  191",
+      "eser": "barla-lahikasi",
+      "sayfa": 211
+    },
+    {
+      "slug": "mektub-192",
+      "bolum": "Mektub  192",
+      "eser": "barla-lahikasi",
+      "sayfa": 212
+    },
+    {
+      "slug": "mektub-193",
+      "bolum": "Mektub  193",
+      "eser": "barla-lahikasi",
+      "sayfa": 213
+    },
+    {
+      "slug": "mektub-194",
+      "bolum": "Mektub  194",
+      "eser": "barla-lahikasi",
+      "sayfa": 214
+    },
+    {
+      "slug": "mektub-196",
+      "bolum": "Mektub  196",
+      "eser": "barla-lahikasi",
+      "sayfa": 215
+    },
+    {
+      "slug": "mektub-197",
+      "bolum": "Mektub  197",
+      "eser": "barla-lahikasi",
+      "sayfa": 218
+    },
+    {
+      "slug": "mektub-198",
+      "bolum": "Mektub  198",
+      "eser": "barla-lahikasi",
+      "sayfa": 219
+    },
+    {
+      "slug": "mektub-200",
+      "bolum": "Mektub  200",
+      "eser": "barla-lahikasi",
+      "sayfa": 220
+    },
+    {
+      "slug": "mektub-201",
+      "bolum": "Mektub  201",
+      "eser": "barla-lahikasi",
+      "sayfa": 221
+    },
+    {
+      "slug": "mektub-202",
+      "bolum": "Mektub  202",
+      "eser": "barla-lahikasi",
+      "sayfa": 222
+    },
+    {
+      "slug": "mektub-203",
+      "bolum": "Mektub  203",
+      "eser": "barla-lahikasi",
+      "sayfa": 223
+    },
+    {
+      "slug": "mektub-205",
+      "bolum": "Mektub  205",
+      "eser": "barla-lahikasi",
+      "sayfa": 226
+    },
+    {
+      "slug": "mektub-207",
+      "bolum": "Mektub  207",
+      "eser": "barla-lahikasi",
+      "sayfa": 227
+    },
+    {
+      "slug": "mektub-208",
+      "bolum": "Mektub  208",
+      "eser": "barla-lahikasi",
+      "sayfa": 228
+    },
+    {
+      "slug": "mektub-209",
+      "bolum": "Mektub  209",
+      "eser": "barla-lahikasi",
+      "sayfa": 231
+    },
+    {
+      "slug": "mektub-210",
+      "bolum": "Mektub  210",
+      "eser": "barla-lahikasi",
+      "sayfa": 234
+    },
+    {
+      "slug": "mektub-211",
+      "bolum": "Mektub  211",
+      "eser": "barla-lahikasi",
+      "sayfa": 240
+    },
+    {
+      "slug": "mektub-212",
+      "bolum": "Mektub  212",
+      "eser": "barla-lahikasi",
+      "sayfa": 245
+    },
+    {
+      "slug": "mektub-213",
+      "bolum": "Mektub  213",
+      "eser": "barla-lahikasi",
+      "sayfa": 246
+    },
+    {
+      "slug": "mektub-215",
+      "bolum": "Mektub  215",
+      "eser": "barla-lahikasi",
+      "sayfa": 248
+    },
+    {
+      "slug": "mektub-216",
+      "bolum": "Mektub  216",
+      "eser": "barla-lahikasi",
+      "sayfa": 250
+    },
+    {
+      "slug": "mektub-217",
+      "bolum": "Mektub  217",
+      "eser": "barla-lahikasi",
+      "sayfa": 252
+    },
+    {
+      "slug": "mektub-218",
+      "bolum": "Mektub  218",
+      "eser": "barla-lahikasi",
+      "sayfa": 253
+    },
+    {
+      "slug": "mektub-219",
+      "bolum": "Mektub  219",
+      "eser": "barla-lahikasi",
+      "sayfa": 254
+    },
+    {
+      "slug": "mektub-220",
+      "bolum": "Mektub  220",
+      "eser": "barla-lahikasi",
+      "sayfa": 255
+    },
+    {
+      "slug": "mektub-221",
+      "bolum": "Mektub  221",
+      "eser": "barla-lahikasi",
+      "sayfa": 258
+    },
+    {
+      "slug": "mektub-222",
+      "bolum": "Mektub  222",
+      "eser": "barla-lahikasi",
+      "sayfa": 259
+    },
+    {
+      "slug": "mektub-223",
+      "bolum": "Mektub  223",
+      "eser": "barla-lahikasi",
+      "sayfa": 263
+    },
+    {
+      "slug": "mektub-224",
+      "bolum": "Mektub  224",
+      "eser": "barla-lahikasi",
+      "sayfa": 264
+    },
+    {
+      "slug": "mektub-225",
+      "bolum": "Mektub  225",
+      "eser": "barla-lahikasi",
+      "sayfa": 265
+    },
+    {
+      "slug": "mektub-226",
+      "bolum": "Mektub  226",
+      "eser": "barla-lahikasi",
+      "sayfa": 266
+    },
+    {
+      "slug": "mektub-227",
+      "bolum": "Mektub  227",
+      "eser": "barla-lahikasi",
+      "sayfa": 267
+    },
+    {
+      "slug": "mektub-229",
+      "bolum": "Mektub  229",
+      "eser": "barla-lahikasi",
+      "sayfa": 268
+    },
+    {
+      "slug": "mektub-230",
+      "bolum": "Mektub  230",
+      "eser": "barla-lahikasi",
+      "sayfa": 269
+    },
+    {
+      "slug": "mektub-231",
+      "bolum": "Mektub  231",
+      "eser": "barla-lahikasi",
+      "sayfa": 271
+    },
+    {
+      "slug": "mektub-232",
+      "bolum": "Mektub  232",
+      "eser": "barla-lahikasi",
+      "sayfa": 274
+    },
+    {
+      "slug": "mektub-233",
+      "bolum": "Mektub  233",
+      "eser": "barla-lahikasi",
+      "sayfa": 275
+    },
+    {
+      "slug": "mektub-234",
+      "bolum": "Mektub  234",
+      "eser": "barla-lahikasi",
+      "sayfa": 276
+    },
+    {
+      "slug": "mektub-236",
+      "bolum": "Mektub  236",
+      "eser": "barla-lahikasi",
+      "sayfa": 279
+    },
+    {
+      "slug": "mektub-237",
+      "bolum": "Mektub  237",
+      "eser": "barla-lahikasi",
+      "sayfa": 281
+    },
+    {
+      "slug": "mektub-238",
+      "bolum": "Mektub  238",
+      "eser": "barla-lahikasi",
+      "sayfa": 282
+    },
+    {
+      "slug": "mektub-239",
+      "bolum": "Mektub  239",
+      "eser": "barla-lahikasi",
+      "sayfa": 285
+    },
+    {
+      "slug": "mektub-240",
+      "bolum": "Mektub  240",
+      "eser": "barla-lahikasi",
+      "sayfa": 286
+    },
+    {
+      "slug": "mektub-241",
+      "bolum": "Mektub  241",
+      "eser": "barla-lahikasi",
+      "sayfa": 288
+    },
+    {
+      "slug": "mektub-242",
+      "bolum": "Mektub  242",
+      "eser": "barla-lahikasi",
+      "sayfa": 289
+    },
+    {
+      "slug": "mektub-244",
+      "bolum": "Mektub  244",
+      "eser": "barla-lahikasi",
+      "sayfa": 291
+    },
+    {
+      "slug": "mektub-245",
+      "bolum": "Mektub  245",
+      "eser": "barla-lahikasi",
+      "sayfa": 295
+    },
+    {
+      "slug": "mektub-246",
+      "bolum": "Mektub  246",
+      "eser": "barla-lahikasi",
+      "sayfa": 296
+    },
+    {
+      "slug": "mektub-247",
+      "bolum": "Mektub  247",
+      "eser": "barla-lahikasi",
+      "sayfa": 297
+    },
+    {
+      "slug": "mektub-248",
+      "bolum": "Mektub  248",
+      "eser": "barla-lahikasi",
+      "sayfa": 298
+    },
+    {
+      "slug": "mektub-250",
+      "bolum": "Mektub  250",
+      "eser": "barla-lahikasi",
+      "sayfa": 303
+    },
+    {
+      "slug": "mektub-251",
+      "bolum": "Mektub  251",
+      "eser": "barla-lahikasi",
+      "sayfa": 306
+    },
+    {
+      "slug": "mektub-253",
+      "bolum": "Mektub  253",
+      "eser": "barla-lahikasi",
+      "sayfa": 310
+    },
+    {
+      "slug": "mektub-254",
+      "bolum": "Mektub  254",
+      "eser": "barla-lahikasi",
+      "sayfa": 316
+    },
+    {
+      "slug": "mektub-255",
+      "bolum": "Mektub  255",
+      "eser": "barla-lahikasi",
+      "sayfa": 317
+    },
+    {
+      "slug": "mektub-256",
+      "bolum": "Mektub  256",
+      "eser": "barla-lahikasi",
+      "sayfa": 318
+    },
+    {
+      "slug": "mektub-257",
+      "bolum": "Mektub  257",
+      "eser": "barla-lahikasi",
+      "sayfa": 320
+    },
+    {
+      "slug": "mektub-259",
+      "bolum": "Mektub  259",
+      "eser": "barla-lahikasi",
+      "sayfa": 321
+    },
+    {
+      "slug": "mektub-262",
+      "bolum": "Mektub  262",
+      "eser": "barla-lahikasi",
+      "sayfa": 322
+    },
+    {
+      "slug": "mektub-263",
+      "bolum": "Mektub  263",
+      "eser": "barla-lahikasi",
+      "sayfa": 324
+    },
+    {
+      "slug": "mektub-264",
+      "bolum": "Mektub  264",
+      "eser": "barla-lahikasi",
+      "sayfa": 325
+    },
+    {
+      "slug": "mektub-265",
+      "bolum": "Mektub  265",
+      "eser": "barla-lahikasi",
+      "sayfa": 326
+    },
+    {
+      "slug": "mektub-267",
+      "bolum": "Mektub  267",
+      "eser": "barla-lahikasi",
+      "sayfa": 328
+    },
+    {
+      "slug": "mektub-268",
+      "bolum": "Mektub  268",
+      "eser": "barla-lahikasi",
+      "sayfa": 330
+    },
+    {
+      "slug": "mektub-269",
+      "bolum": "Mektub  269",
+      "eser": "barla-lahikasi",
+      "sayfa": 331
+    },
+    {
+      "slug": "mektub-270",
+      "bolum": "Mektub  270",
+      "eser": "barla-lahikasi",
+      "sayfa": 333
+    },
+    {
+      "slug": "mektub-271",
+      "bolum": "Mektub  271",
+      "eser": "barla-lahikasi",
+      "sayfa": 334
+    },
+    {
+      "slug": "mektub-272",
+      "bolum": "Mektub  272",
+      "eser": "barla-lahikasi",
+      "sayfa": 336
+    },
+    {
+      "slug": "mektub-274",
+      "bolum": "Mektub  274",
+      "eser": "barla-lahikasi",
+      "sayfa": 337
+    },
+    {
+      "slug": "mektub-275",
+      "bolum": "Mektub  275",
+      "eser": "barla-lahikasi",
+      "sayfa": 338
+    },
+    {
+      "slug": "mektub-277",
+      "bolum": "Mektub  277",
+      "eser": "barla-lahikasi",
+      "sayfa": 339
+    },
+    {
+      "slug": "mektub-278",
+      "bolum": "Mektub  278",
+      "eser": "barla-lahikasi",
+      "sayfa": 341
+    },
+    {
+      "slug": "mektub-279",
+      "bolum": "Mektub  279",
+      "eser": "barla-lahikasi",
+      "sayfa": 342
+    },
+    {
+      "slug": "mektub-281",
+      "bolum": "Mektub  281",
+      "eser": "barla-lahikasi",
+      "sayfa": 343
+    },
+    {
+      "slug": "mektub-282",
+      "bolum": "Mektub  282",
+      "eser": "barla-lahikasi",
+      "sayfa": 345
+    },
+    {
+      "slug": "mektub-283",
+      "bolum": "Mektub  283",
+      "eser": "barla-lahikasi",
+      "sayfa": 346
+    },
+    {
+      "slug": "mektub-284",
+      "bolum": "Mektub  284",
+      "eser": "barla-lahikasi",
+      "sayfa": 348
+    },
+    {
+      "slug": "mektub-285",
+      "bolum": "Mektub  285",
+      "eser": "barla-lahikasi",
+      "sayfa": 349
+    },
+    {
+      "slug": "mektub-286",
+      "bolum": "Mektub  286",
+      "eser": "barla-lahikasi",
+      "sayfa": 350
+    },
+    {
+      "slug": "mektub-287",
+      "bolum": "Mektub  287",
+      "eser": "barla-lahikasi",
+      "sayfa": 351
+    },
+    {
+      "slug": "mektub-288",
+      "bolum": "Mektub  288",
+      "eser": "barla-lahikasi",
+      "sayfa": 352
+    },
+    {
+      "slug": "mektub-289",
+      "bolum": "Mektub  289",
+      "eser": "barla-lahikasi",
+      "sayfa": 353
+    },
+    {
+      "slug": "mektub-290",
+      "bolum": "Mektub  290",
+      "eser": "barla-lahikasi",
+      "sayfa": 354
+    },
+    {
+      "slug": "mektub-291",
+      "bolum": "Mektub  291",
+      "eser": "barla-lahikasi",
+      "sayfa": 355
+    },
+    {
+      "slug": "mektub-292",
+      "bolum": "Mektub  292",
+      "eser": "barla-lahikasi",
+      "sayfa": 357
+    },
+    {
+      "slug": "mektub-293",
+      "bolum": "Mektub  293",
+      "eser": "barla-lahikasi",
+      "sayfa": 358
+    },
+    {
+      "slug": "mektub-294",
+      "bolum": "Mektub  294",
+      "eser": "barla-lahikasi",
+      "sayfa": 359
+    },
+    {
+      "slug": "mektub-295",
+      "bolum": "Mektub  295",
+      "eser": "barla-lahikasi",
+      "sayfa": 360
+    },
+    {
+      "slug": "mektub-296",
+      "bolum": "Mektub  296",
+      "eser": "barla-lahikasi",
+      "sayfa": 361
+    },
+    {
+      "slug": "mektub-297",
+      "bolum": "Mektub  297",
+      "eser": "barla-lahikasi",
+      "sayfa": 362
+    },
+    {
+      "slug": "mektub-298",
+      "bolum": "Mektub  298",
+      "eser": "barla-lahikasi",
+      "sayfa": 363
+    },
+    {
+      "slug": "mektub-299",
+      "bolum": "Mektub  299",
+      "eser": "barla-lahikasi",
+      "sayfa": 366
+    }
+  ]
+}

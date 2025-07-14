@@ -1,0 +1,95 @@
+{
+  "baslik": "sualar",
+  "madde": [
+    {
+      "slug": "birinci-sua",
+      "bolum": "Birinci Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 1
+    },
+    {
+      "slug": "ikinci-sua",
+      "bolum": "İkinci Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 3
+    },
+    {
+      "slug": "ucuncu-sua",
+      "bolum": "Üçüncü Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 35
+    },
+    {
+      "slug": "dorduncu-sua",
+      "bolum": "Dördüncü Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 51
+    },
+    {
+      "slug": "besinci-sua",
+      "bolum": "Beşinci Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 71
+    },
+    {
+      "slug": "altinci-sua",
+      "bolum": "Altıncı Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 89
+    },
+    {
+      "slug": "yedinci-sua",
+      "bolum": "Yedinci Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 93
+    },
+    {
+      "slug": "yirmiucuncu-soz",
+      "bolum": "Yirmiüçüncü Söz",
+      "eser": "sualar",
+      "sayfa": 168
+    },
+    {
+      "slug": "otuzikinci-soz",
+      "bolum": "Otuzikinci Söz",
+      "eser": "sualar",
+      "sayfa": 174
+    },
+    {
+      "slug": "dokuzuncu-sua",
+      "bolum": "Dokuzuncu Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 181
+    },
+    {
+      "slug": "onbirinci-sua",
+      "bolum": "Onbirinci Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 192
+    },
+    {
+      "slug": "onikinci-sua",
+      "bolum": "Onikinci Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 263
+    },
+    {
+      "slug": "onucuncu-sua",
+      "bolum": "Onüçüncü Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 361
+    },
+    {
+      "slug": "ondorduncu-sua",
+      "bolum": "Ondördüncü Şuâ‘",
+      "eser": "sualar",
+      "sayfa": 421
+    },
+    {
+      "slug": "onbesinci-sua",
+      "bolum": "Onbeşinci Şuâ,‘",
+      "eser": "sualar",
+      "sayfa": 563
+    }
+  ]
+}

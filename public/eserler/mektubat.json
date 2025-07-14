@@ -1,0 +1,173 @@
+{
+  "baslik": "mektubat",
+  "madde": [
+    {
+      "slug": "birinci-mektub",
+      "bolum": "Birinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 1
+    },
+    {
+      "slug": "ikinci-mektub",
+      "bolum": "İkinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 8
+    },
+    {
+      "slug": "ucuncu-mektub",
+      "bolum": "Üçüncü Mektub",
+      "eser": "mektubat",
+      "sayfa": 10
+    },
+    {
+      "slug": "dorduncu-mektub",
+      "bolum": "Dördüncü Mektub",
+      "eser": "mektubat",
+      "sayfa": 13
+    },
+    {
+      "slug": "besinci-mektub",
+      "bolum": "Beşinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 15
+    },
+    {
+      "slug": "altinci-mektub",
+      "bolum": "Altıncı Mektub",
+      "eser": "mektubat",
+      "sayfa": 17
+    },
+    {
+      "slug": "yedinci-mektub",
+      "bolum": "Yedinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 19
+    },
+    {
+      "slug": "sekizinci-mektub",
+      "bolum": "Sekizinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 21
+    },
+    {
+      "slug": "dokuzuncu-mektub",
+      "bolum": "Dokuzuncu Mektub",
+      "eser": "mektubat",
+      "sayfa": 23
+    },
+    {
+      "slug": "onuncu-mektub",
+      "bolum": "Onuncu Mektub",
+      "eser": "mektubat",
+      "sayfa": 27
+    },
+    {
+      "slug": "on-birinci-mektub",
+      "bolum": "On Birinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 28
+    },
+    {
+      "slug": "on-ikinci-mektub",
+      "bolum": "On İkinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 30
+    },
+    {
+      "slug": "on-ucuncu-mektub",
+      "bolum": "On Üçüncü Mektub",
+      "eser": "mektubat",
+      "sayfa": 35
+    },
+    {
+      "slug": "on-besinci-mektub",
+      "bolum": "On Beşinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 39
+    },
+    {
+      "slug": "on-altinci-mektub",
+      "bolum": "On Altıncı Mektub",
+      "eser": "mektubat",
+      "sayfa": 51
+    },
+    {
+      "slug": "on-sekizinci-mektub",
+      "bolum": "On Sekizinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 68
+    },
+    {
+      "slug": "yirminci-mektub",
+      "bolum": "Yirminci Mektub",
+      "eser": "mektubat",
+      "sayfa": 75
+    },
+    {
+      "slug": "yirmi-ikinci-mektub",
+      "bolum": "Yirmi İkinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 108
+    },
+    {
+      "slug": "yirmi-ucuncu-mektub",
+      "bolum": "Yirmi Üçüncü Mektub",
+      "eser": "mektubat",
+      "sayfa": 122
+    },
+    {
+      "slug": "yirmi-dorduncu-mektub",
+      "bolum": "Yirmi Dördüncü Mektub",
+      "eser": "mektubat",
+      "sayfa": 128
+    },
+    {
+      "slug": "yirmi-altinci-mektub",
+      "bolum": "Yirmi Altıncı Mektub",
+      "eser": "mektubat",
+      "sayfa": 138
+    },
+    {
+      "slug": "fihriste-i-mektubat",
+      "bolum": "Fihriste-i Mektubât",
+      "eser": "mektubat",
+      "sayfa": 171
+    },
+    {
+      "slug": "yirmi-sekizinci-mektub",
+      "bolum": "Yirmi Sekizinci Mektub",
+      "eser": "mektubat",
+      "sayfa": 225
+    },
+    {
+      "slug": "yirmi-dokuzuncu-mektub",
+      "bolum": "Yirmi Dokuzuncu Mektub",
+      "eser": "mektubat",
+      "sayfa": 273
+    },
+    {
+      "slug": "otuz-ucuncu-mektub",
+      "bolum": "Otuz Üçüncü Mektub",
+      "eser": "mektubat",
+      "sayfa": 346
+    },
+    {
+      "slug": "munazarat",
+      "bolum": "Münâzarât",
+      "eser": "mektubat",
+      "sayfa": 382
+    },
+    {
+      "slug": "hutbe-i-samiye",
+      "bolum": "Hutbe-i Şâmiye",
+      "eser": "mektubat",
+      "sayfa": 431
+    },
+    {
+      "slug": "hakikat-cekirdekleri",
+      "bolum": "Hakîkat Çekirdekleri",
+      "eser": "mektubat",
+      "sayfa": 495
+    }
+  ]
+}

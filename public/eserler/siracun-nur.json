@@ -1,0 +1,89 @@
+{
+  "baslik": "siracun-nur",
+  "madde": [
+    {
+      "slug": "ucuncu-sua",
+      "bolum": "Üçüncü Şuâ‘",
+      "eser": "siracun-nur",
+      "sayfa": 1
+    },
+    {
+      "slug": "yirmibesinci-lem-a",
+      "bolum": "Yirmibeşinci Lem‘a",
+      "eser": "siracun-nur",
+      "sayfa": 17
+    },
+    {
+      "slug": "onyedinci-mektup",
+      "bolum": "Onyedinci Mektup",
+      "eser": "siracun-nur",
+      "sayfa": 35
+    },
+    {
+      "slug": "yirmialtinci-lem-a",
+      "bolum": "Yirmialtıncı Lem‘a",
+      "eser": "siracun-nur",
+      "sayfa": 38
+    },
+    {
+      "slug": "yirmibirinci-mektup",
+      "bolum": "Yirmibirinci Mektup",
+      "eser": "siracun-nur",
+      "sayfa": 88
+    },
+    {
+      "slug": "dorduncu-sua",
+      "bolum": "Dördüncü Şuâ‘",
+      "eser": "siracun-nur",
+      "sayfa": 91
+    },
+    {
+      "slug": "onucuncu-lem-a",
+      "bolum": "Onüçüncü Lem‘a",
+      "eser": "siracun-nur",
+      "sayfa": 111
+    },
+    {
+      "slug": "otuzucuncu-mektub",
+      "bolum": "Otuzüçüncü Mektub",
+      "eser": "siracun-nur",
+      "sayfa": 132
+    },
+    {
+      "slug": "on-yedinci-soz",
+      "bolum": "On Yedinci Söz",
+      "eser": "siracun-nur",
+      "sayfa": 167
+    },
+    {
+      "slug": "onyedinci-lem-a",
+      "bolum": "Onyedinci Lem‘a",
+      "eser": "siracun-nur",
+      "sayfa": 168
+    },
+    {
+      "slug": "onikinci-sua",
+      "bolum": "Onikinci Şuâ‘",
+      "eser": "siracun-nur",
+      "sayfa": 170
+    },
+    {
+      "slug": "besinci-sua",
+      "bolum": "Beşinci Şuâ‘",
+      "eser": "siracun-nur",
+      "sayfa": 275
+    },
+    {
+      "slug": "hasan-feyzi-rh-in-fikralari",
+      "bolum": "Hasan Feyzî (rh)’in Fıkraları",
+      "eser": "siracun-nur",
+      "sayfa": 292
+    },
+    {
+      "slug": "dua",
+      "bolum": "Duâ",
+      "eser": "siracun-nur",
+      "sayfa": 309
+    }
+  ]
+}

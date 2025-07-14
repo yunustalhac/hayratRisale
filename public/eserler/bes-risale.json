@@ -1,0 +1,53 @@
+{
+  "baslik": "bes-risale",
+  "madde": [
+    {
+      "slug": "birinci-soz",
+      "bolum": " Birinci Söz",
+      "eser": "bes-risale",
+      "sayfa": 1
+    },
+    {
+      "slug": "yazi-mektubu",
+      "bolum": " Yazı Mektubu",
+      "eser": "bes-risale",
+      "sayfa": 7
+    },
+    {
+      "slug": "onuncu-huccet-i-imaniye",
+      "bolum": " Onuncu Huccet-i Îmâniye",
+      "eser": "bes-risale",
+      "sayfa": 9
+    },
+    {
+      "slug": "altinci-huccet-i-imaniye",
+      "bolum": " Altıncı Huccet-i Îmâniye",
+      "eser": "bes-risale",
+      "sayfa": 22
+    },
+    {
+      "slug": "mu-cizat-i-ahmediye-asm",
+      "bolum": " Mu‘cizât-ı Ahmediye (asm)",
+      "eser": "bes-risale",
+      "sayfa": 28
+    },
+    {
+      "slug": "ihlas-risalesi",
+      "bolum": " İhlâs Risâlesi",
+      "eser": "bes-risale",
+      "sayfa": 46
+    },
+    {
+      "slug": "tabiat-risalesi",
+      "bolum": " Tabiat Risâlesi",
+      "eser": "bes-risale",
+      "sayfa": 64
+    },
+    {
+      "slug": "dua",
+      "bolum": " Duâ",
+      "eser": "bes-risale",
+      "sayfa": 94
+    }
+  ]
+}

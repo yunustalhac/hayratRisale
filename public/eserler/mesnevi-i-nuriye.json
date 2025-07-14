@@ -1,0 +1,199 @@
+{
+  "baslik": "mesnevi-i-nuriye",
+  "madde": [
+    {
+      "slug": "mukaddeme-1",
+      "bolum": "Mukaddeme",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 2
+    },  {
+      "slug": "lem-alar-risalesi",
+      "bolum": "Lem‘alar Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 5
+    },
+    {
+      "slug": "reshalar-risalesi",
+      "bolum": "Reşhalar Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 17
+    },
+    {
+      "slug": "lasiyyemalar",
+      "bolum": "Lâsiyyemâlar",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 29
+    },
+    {
+      "slug": "katre-risalesi",
+      "bolum": "Katre Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 47
+    }, {
+      "slug": "mukaddeme-2",
+      "bolum": "Mukaddeme",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 49
+    },
+    {
+      "slug": "hatime",
+      "bolum": "Hâtime",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 59
+    },
+    {
+      "slug": "birinci-hakikat",
+      "bolum": "Birinci Hakîkat",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 60
+    },
+    {
+      "slug": "ikinci-hakikat",
+      "bolum": "İkinci Hakîkat",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 61
+    },
+    {
+      "slug": "ucuncu-hakikat",
+      "bolum": "Üçüncü Hakîkat",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 62
+    },
+    {
+      "slug": "nokta-1",
+      "bolum": "Nokta 1",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 63
+    },
+    {
+      "slug": "nukte-2",
+      "bolum": "Nükte 2",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 64
+    },
+    {
+      "slug": "nukte-3",
+      "bolum": "Nükte 3",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 65
+    },
+    {
+      "slug": "nukte-4",
+      "bolum": "Nükte 4",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 66
+    },
+    {
+      "slug": "nukte-5",
+      "bolum": "Nükte 5",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 67
+    },
+    {
+      "slug": "i-tizar",
+      "bolum": "İ‘tizâr",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 68
+    },
+    {
+      "slug": "katrenin-zeyli",
+      "bolum": "Katre’nin Zeyli",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 70
+    },
+    {
+      "slug": "habab-risalesi",
+      "bolum": "Habâb Risalesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 77
+    },
+    {
+      "slug": "zeylul-habab",
+      "bolum": "Zeylü’l-Habâb",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 103
+    },
+    {
+      "slug": "habbe-risalesi",
+      "bolum": "Habbe Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 111
+    },
+    {
+      "slug": "zeylul-habbe",
+      "bolum": "Zeylü’l-Habbe",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 127
+    },
+    {
+      "slug": "zeyluz-zeyl",
+      "bolum": "Zeylü’z-Zeyl",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 135
+    },    {
+      "slug": "zehre-risalesi-1",
+      "bolum": "Zehre-risalesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 141
+    },   {
+      "slug": "zerre-risalesi-2",
+      "bolum": "Zerre Risalesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 171
+    },
+    {
+      "slug": "semme-risalesi",
+      "bolum": "Şemme Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 183
+    },
+    {
+      "slug": "onuncu-risale",
+      "bolum": "Onuncu Risâle",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 195
+    },
+    {
+      "slug": "on-dorduncu-resha",
+      "bolum": "On Dördüncü Reşha",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 219
+    },
+    {
+      "slug": "su-le-risalesi",
+      "bolum": "Şu‘le Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 225
+    },
+    {
+      "slug": "su-enin-zeyli",
+      "bolum": "Şu‘e’nin Zeyli",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 231
+    },
+    {
+      "slug": "nokta-risalesi",
+      "bolum": "Nokta Risâlesi",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 233
+    },
+    {
+      "slug": "on-dorduncu-lem-anin-ikinci-makami",
+      "bolum": "On Dördüncü Lem‘a’nın İkinci Makamı",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 247
+    },
+    {
+      "slug": "fihrist",
+      "bolum": "Fihrist",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 255
+    },
+    {
+      "slug": "dua",
+      "bolum": "Duâ",
+      "eser": "mesnevi-i-nuriye",
+      "sayfa": 294
+    }
+  ]
+}

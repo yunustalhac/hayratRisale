@@ -1,0 +1,60 @@
+{
+  "baslik": "sikke-i-tasdik-i-gaybi",
+  "madde": [
+    {
+      "slug": "hizmet-mektublari",
+      "bolum": "Hizmet Mektubları",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 1
+    },
+    {
+      "slug": "birinci-sua",
+      "bolum": "Birinci Şuâ`",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 59
+    },
+    {
+      "slug": "sekizinci-sua",
+      "bolum": "Sekizinci Şuâ`",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 99
+    },    {
+      "slug": "yirmi-sekizinci-lem-a",
+      "bolum": "Yirmi Sekizinci Lem`a",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 119
+    }, {
+      "slug": "on-sekizinci-lem-a",
+      "bolum": "On Sekizinci Lem`a",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 132
+    }, {
+      "slug": "sekizinci-lem-a",
+      "bolum": "Sekizinci Lem`a",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 142
+    }, {
+      "slug": "inayat-i-seb-a",
+      "bolum": "İnâyât-ı Seb`a",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 218
+    },
+    {
+      "slug": "huve-nuktesi",
+      "bolum": "Hüve Nüktesi",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 238
+    },
+    {
+      "slug": "nur-ayetinin-bir-nuktesi",
+      "bolum": "Nûr âyetinin bir nüktesi",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 241
+    }   , {
+      "slug": "na-budu-nuktesi",
+      "bolum": "Na`büdü Nüktesi",
+      "eser": "sikke-i-tasdik-i-gaybi",
+      "sayfa": 243
+    }
+  ]
+}
