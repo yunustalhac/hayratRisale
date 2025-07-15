@@ -1,8 +1,49 @@
-import fs from 'fs'
-import path from 'path'
+import { MongoClient } from 'mongodb'
 
-export default defineEventHandler(() => {
-  const filePath = path.join(process.cwd(), 'public', 'data.json')
-  const data = fs.readFileSync(filePath, 'utf-8')
-  return JSON.parse(data)
+let client = null;
+
+export default defineEventHandler(async (event) => {
+    // Tüm verileri çekmek için query parametrelerini kaldırdık
+    const uri = process.env.MONGO_URI
+
+    try {
+        // Eğer client bağlı değilse yeni bağlantı oluştur
+        if (!client) {
+            client = new MongoClient(uri)
+            await client.connect()
+            console.log('MongoDB bağlantısı başarılı')
+        }
+
+        const db = client.db('eserBilgileri')
+        const collection = db.collection('eserBilgileri')
+
+        // Filtre kullanılmadan tüm veriler çekiliyor
+        const eserler = await collection.find({}).toArray()
+
+
+        if (!eserler || eserler.length === 0) {
+            console.warn('Eserler koleksiyonu boş veya veri bulunamadı')
+            return {
+                success: true,
+                data: [],
+                count: 0
+            }
+        }
+
+        return {
+            success: true,
+            data: eserler,
+            count: eserler.length
+        }
+
+    } catch (err) {
+        console.error('MongoDB hatası:', err)
+        client = null
+        return {
+            success: false,
+            error: 'Veri çekilemedi',
+            details: err.message,
+            data: []
+        }
+    }
 })

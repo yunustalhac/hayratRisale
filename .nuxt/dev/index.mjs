@@ -1,11 +1,11 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
 import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file:///Users/yunustalhacoban/Desktop/mutalaa/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
-import path, { resolve, dirname, join } from 'node:path';
+import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
 import { escapeHtml } from 'file:///Users/yunustalhacoban/Desktop/mutalaa/node_modules/@vue/shared/dist/shared.cjs.js';
-import fs from 'node:fs';
+import { MongoClient } from 'file:///Users/yunustalhacoban/Desktop/mutalaa/node_modules/mongodb/lib/index.js';
 import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///Users/yunustalhacoban/Desktop/mutalaa/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///Users/yunustalhacoban/Desktop/mutalaa/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file:///Users/yunustalhacoban/Desktop/mutalaa/node_modules/vue/server-renderer/index.mjs';
@@ -1771,10 +1771,41 @@ const styles$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   default: styles
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const data = defineEventHandler(() => {
-  const filePath = path.join(process.cwd(), "public", "data.json");
-  const data = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(data);
+let client$2 = null;
+const data = defineEventHandler(async (event) => {
+  const uri = process.env.MONGO_URI;
+  try {
+    if (!client$2) {
+      client$2 = new MongoClient(uri);
+      await client$2.connect();
+      console.log("MongoDB ba\u011Flant\u0131s\u0131 ba\u015Far\u0131l\u0131");
+    }
+    const db = client$2.db("eserBilgileri");
+    const collection = db.collection("eserBilgileri");
+    const eserler = await collection.find({}).toArray();
+    if (!eserler || eserler.length === 0) {
+      console.warn("Eserler koleksiyonu bo\u015F veya veri bulunamad\u0131");
+      return {
+        success: true,
+        data: [],
+        count: 0
+      };
+    }
+    return {
+      success: true,
+      data: eserler,
+      count: eserler.length
+    };
+  } catch (err) {
+    console.error("MongoDB hatas\u0131:", err);
+    client$2 = null;
+    return {
+      success: false,
+      error: "Veri \xE7ekilemedi",
+      details: err.message,
+      data: []
+    };
+  }
 });
 
 const data$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
@@ -1782,10 +1813,41 @@ const data$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   default: data
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const istilahData = defineEventHandler(() => {
-  const filePath = path.join(process.cwd(), "public", "istilahData.json");
-  const data = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(data);
+let client$1 = null;
+const istilahData = defineEventHandler(async (event) => {
+  const uri = process.env.MONGO_URI;
+  try {
+    if (!client$1) {
+      client$1 = new MongoClient(uri);
+      await client$1.connect();
+      console.log("MongoDB ba\u011Flant\u0131s\u0131 ba\u015Far\u0131l\u0131");
+    }
+    const db = client$1.db("istilah");
+    const collection = db.collection("istilah");
+    const eserler = await collection.find({}).toArray();
+    if (!eserler || eserler.length === 0) {
+      console.warn("Eserler koleksiyonu bo\u015F veya veri bulunamad\u0131");
+      return {
+        success: true,
+        data: [],
+        count: 0
+      };
+    }
+    return {
+      success: true,
+      data: eserler,
+      count: eserler.length
+    };
+  } catch (err) {
+    console.error("MongoDB hatas\u0131:", err);
+    client$1 = null;
+    return {
+      success: false,
+      error: "Veri \xE7ekilemedi",
+      details: err.message,
+      data: []
+    };
+  }
 });
 
 const istilahData$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
@@ -1793,10 +1855,52 @@ const istilahData$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.definePrope
   default: istilahData
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const mukayese_get = defineEventHandler((event) => {
-  const filePath = path.join(process.cwd(), "public", "mukayese.json");
-  const data = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(data);
+let client = null;
+const mukayese_get = defineEventHandler(async (event) => {
+  const { eser = "", sayfa = "" } = await getQuery$1(event);
+  if (!eser || !sayfa) {
+    return {
+      success: false,
+      error: "Eser ve sayfa parametreleri gereklidir",
+      data: []
+    };
+  }
+  const uri = process.env.MONGO_URI;
+  try {
+    if (!client) {
+      client = new MongoClient(uri);
+      await client.connect();
+      console.log("MongoDB ba\u011Flant\u0131s\u0131 ba\u015Far\u0131l\u0131");
+    }
+    const db = client.db("eserler");
+    const collection = db.collection("eserler");
+    const eserler = await collection.find({
+      eser,
+      sayfa
+    }).toArray();
+    if (!eserler || eserler.length === 0) {
+      console.warn("Eserler koleksiyonu bo\u015F veya veri bulunamad\u0131");
+      return {
+        success: true,
+        data: [],
+        count: 0
+      };
+    }
+    return {
+      success: true,
+      data: eserler,
+      count: eserler.length
+    };
+  } catch (err) {
+    console.error("MongoDB hatas\u0131:", err);
+    client = null;
+    return {
+      success: false,
+      error: "Veri \xE7ekilemedi",
+      details: err.message,
+      data: []
+    };
+  }
 });
 
 const mukayese_get$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

@@ -195,14 +195,6 @@ const temizle = () => {
     }
   }
   localStorage.removeItem(localStorageKey())
-  
-  // Yazıları da temizle
-  if (dil.value) {
-    osmTexts.value = []
-  } else {
-    latTexts.value = []
-  }
-  localStorage.removeItem(textsLocalStorageKey())
 }
 
 // ==================================================
@@ -405,175 +397,6 @@ function loadFreeText() {
 }
 
 // ==================================================
-// 6.1 Text Writing Functionality
-// ==================================================
-const textMode = ref(false)
-const showTextModal = ref(false)
-const textContent = ref("")
-const textPosition = ref({ x: 100, y: 100 })
-const textColor = ref("#000000")
-const textSize = ref(16)
-const textFont = ref("Arial")
-
-// Yazı renkleri dizisi
-const textColors = [
-  "#000000", // Siyah
-  "#FFFFFF", // Beyaz
-  "#FF0000", // Kırmızı
-  "#00FF00", // Yeşil
-  "#0000FF", // Mavi
-  "#FFFF00", // Sarı
-  "#FF00FF", // Magenta
-  "#00FFFF", // Cyan
-  "#FFA500", // Turuncu
-  "#800080", // Mor
-  "#008000", // Koyu Yeşil
-  "#000080", // Lacivert
-  "#800000", // Bordo
-  "#808080", // Gri
-  "#FFC0CB", // Pembe
-  "#A52A2A", // Kahverengi
-  "#FFD700", // Altın
-  "#4B0082"  // İndigo
-]
-
-// Osmanlıca (resim) modu için yazılar dizisi
-const osmTexts = ref([])
-// Latince (metin) modu için yazılar dizisi
-const latTexts = ref([])
-// Aktif yazılar dizisini belirlemek için computed property
-const texts = computed({
-  get: () => dil.value ? osmTexts.value : latTexts.value,
-  set: (val) => {
-    if (dil.value) {
-      osmTexts.value = val
-    } else {
-      latTexts.value = val
-    }
-  }
-})
-
-// Yazılar için localStorage anahtarı
-const textsLocalStorageKey = () => {
-  return dil.value
-      ? `${eser.value}-${sayfaNo.value}-osm-texts` // Osmanlıca (resim) modu
-      : `${eser.value}-${sayfaNo.value}-lat-texts` // Latince (metin) modu
-}
-
-function activateTextMode() {
-  textMode.value = !textMode.value
-  if (!textMode.value) {
-    showTextModal.value = false
-    textContent.value = ""
-  }
-}
-
-function saveText() {
-  if (!textContent.value.trim()) {
-    // Boş yazı için uyarı göster
-    showCard("Lütfen bir yazı girin!")
-    return
-  }
-  
-  const newText = {
-    id: Date.now() + Math.random(),
-    content: textContent.value.trim(),
-    x: textPosition.value.x,
-    y: textPosition.value.y,
-    color: textColor.value,
-    size: textSize.value,
-    font: textFont.value
-  }
-
-  // Dil moduna göre doğru yazılar dizisine ekle
-  if (dil.value) {
-    osmTexts.value.push(newText)
-  } else {
-    latTexts.value.push(newText)
-  }
-
-  saveTextsToLocalStorage()
-  
-  // Formu temizle
-  textContent.value = ""
-  textColor.value = "#000000"
-  textSize.value = 16
-  textFont.value = "Arial"
-  textPosition.value = { x: 100, y: 100 }
-  
-  // Modalı kapat
-  showTextModal.value = false
-  textMode.value = false
-  
-  // Başarı mesajı göster
-  showCard("Yazı başarıyla eklendi!")
-}
-
-function closeTextModal() {
-  showTextModal.value = false
-  textMode.value = false
-  
-  // Formu temizle
-  textContent.value = ""
-  textColor.value = "#000000"
-  textSize.value = 16
-  textFont.value = "Arial"
-  textPosition.value = { x: 100, y: 100 }
-}
-
-function loadTexts() {
-  const storedTexts = typeof window !== 'undefined'
-      ? localStorage.getItem(textsLocalStorageKey())
-      : null
-
-  if (storedTexts) {
-    const parsedTexts = JSON.parse(storedTexts)
-    if (dil.value) {
-      osmTexts.value = parsedTexts
-    } else {
-      latTexts.value = parsedTexts
-    }
-  } else {
-    // Veri yoksa ilgili diziyi temizle
-    if (dil.value) {
-      osmTexts.value = []
-    } else {
-      latTexts.value = []
-    }
-  }
-}
-
-function saveTextsToLocalStorage() {
-  if (dil.value) {
-    safeSetItem(textsLocalStorageKey(), JSON.stringify(osmTexts.value))
-  } else {
-    safeSetItem(textsLocalStorageKey(), JSON.stringify(latTexts.value))
-  }
-}
-
-function deleteText(textId) {
-  console.log('deleteText çağrıldı, textId:', textId)
-  if (dil.value) {
-    osmTexts.value = osmTexts.value.filter(t => t.id !== textId)
-  } else {
-    latTexts.value = latTexts.value.filter(t => t.id !== textId)
-  }
-  saveTextsToLocalStorage()
-  console.log('Yazı silindi, kalan yazılar:', dil.value ? osmTexts.value.length : latTexts.value.length)
-}
-
-function handleTextClick(e) {
-  if (!textMode.value) return
-  
-  const rect = e.currentTarget.getBoundingClientRect()
-  const x = e.clientX - rect.left
-  const y = e.clientY - rect.top
-  
-  textPosition.value = { x, y }
-  showTextModal.value = true
-}
-
-// ==================================================
 // 7. Pointer Events & Drawing Functions
 // ==================================================
 const gizle = ref(false)
@@ -581,18 +404,13 @@ const gizle = ref(false)
 function pointerDown(e) {
   if (gizle.value) return
   if (!deviceType.value || showNoteModal.value || shouldIgnoreInput(e)) return
-  if (showSsModal.value || showTextModal.value) return
+  if (showSsModal.value) return
 
   if (e.pointerType === 'touch') e.preventDefault()
 
   const rect = e.currentTarget.getBoundingClientRect()
   const x = e.clientX - rect.left
   const y = e.clientY - rect.top
-
-  if (textMode.value) {
-    handleTextClick(e)
-    return
-  }
 
   if (noteCreationMode.value) {
     noteBoxStart.value = {x, y}
@@ -621,17 +439,13 @@ function pointerDown(e) {
 function pointerMove(e) {
   if (gizle.value) return
   if (!deviceType.value || showNoteModal.value || shouldIgnoreInput(e)) return
-  if (showSsModal.value || showTextModal.value) return
+  if (showSsModal.value) return
 
   if (e.pointerType === 'touch') e.preventDefault()
 
   const rect = e.currentTarget.getBoundingClientRect()
   const x = e.clientX - rect.left
   const y = e.clientY - rect.top
-
-  if (textMode.value) {
-    return // Yazı modunda çizim yapma
-  }
 
   if (noteCreationMode.value && noteBoxStart.value) {
     noteBoxEnd.value = {x, y}
@@ -652,11 +466,7 @@ function pointerMove(e) {
 function pointerUp(e) {
   if (gizle.value) return
   if (!deviceType.value || showNoteModal.value || shouldIgnoreInput(e)) return
-  if (showSsModal.value || showTextModal.value) return
-
-  if (textMode.value) {
-    return // Yazı modunda çizim yapma
-  }
+  if (showSsModal.value) return
 
   if (noteCreationMode.value && noteBoxStart.value && noteBoxEnd.value) {
     e.currentTarget.releasePointerCapture(e.pointerId)
@@ -684,7 +494,7 @@ function pointerUp(e) {
 }
 
 function startDrawing(e) {
-  if (showNoteModal.value || showSsModal.value || showTextModal.value || textMode.value) return
+  if (showNoteModal.value || showSsModal.value) return
 
   const rect = e.currentTarget.getBoundingClientRect()
   const x = e.clientX - rect.left
@@ -696,7 +506,7 @@ function startDrawing(e) {
 }
 
 function continueDrawing(e) {
-  if (showNoteModal.value || showSsModal.value || showTextModal.value || textMode.value) return
+  if (showNoteModal.value || showSsModal.value) return
 
   if (!drawing.value) return
 
@@ -731,7 +541,7 @@ function continueDrawing(e) {
 }
 
 function endDrawing(e) {
-  if (showNoteModal.value || showSsModal.value || showTextModal.value || textMode.value) return
+  if (showNoteModal.value || showSsModal.value) return
 
   if (!drawing.value) return
 
@@ -829,9 +639,6 @@ const git = async () => {
 
   // Serbest metin için
   loadFreeText()
-
-  // Yazılar için
-  loadTexts()
 
   await router.replace({query: {eser: eser.value, bolum: bolum.value, slug: slug.value, sayfa: sayfaNo.value}})
   sayfaAc.value = `https://oku.risale.online/images/risale/${eser.value}/${paddedSayfa}.png`
@@ -967,7 +774,6 @@ watch([sayfaNo, eser], () => {
   git()
   loadNotes()
   loadFreeText()
-  loadTexts()
 })
 
 watch(isDelete, (newVal) => {
@@ -1001,7 +807,6 @@ onMounted(() => {
   git()
   loadNotes()
   loadFreeText()
-  loadTexts()
   const storedData = typeof window !== 'undefined'
       ? localStorage.getItem(localStorageKey())
       : null
@@ -1387,9 +1192,6 @@ watch(dil, (newDil) => {
 
   // Serbest metin için
   loadFreeText()
-
-  // Yazılar için
-  loadTexts()
 })
 
 
@@ -1531,136 +1333,6 @@ const ayracIcon = ref(false)
         </div>
       </div>
     </div>
-
-    <!-- Yazı Ekleme Modalı -->
-    <div v-if="showTextModal" class="fixed inset-0 bg-gray-900/80 backdrop-blur-sm flex justify-center items-center z-50">
-      <div class="bg-white rounded-2xl shadow-2xl w-11/12 max-w-2xl mx-4 overflow-hidden max-h-[90vh]">
-        <!-- Modal Header -->
-        <div class="bg-gradient-to-r from-blue-600 to-blue-500 px-6 py-4">
-          <div class="flex items-center justify-between">
-            <h2 class="text-xl font-bold text-white flex items-center">
-              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-              </svg>
-              Yazı Ekle
-            </h2>
-            <button @click="closeTextModal" class="text-white hover:text-gray-200 transition-colors">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- Modal Content -->
-        <div class="p-6 space-y-4 overflow-y-auto max-h-[60vh] modal-scroll">
-          <!-- İlk Satır: Yazı İçeriği ve Önizleme -->
-          <div class="grid grid-cols-2 gap-4">
-            <!-- Yazı İçeriği -->
-            <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Yazınız</label>
-              <textarea
-                  v-model="textContent"
-                  @focus="sideBar = false;"
-                  class="w-full p-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all duration-200 resize-none"
-                  placeholder="Yazınızı buraya yazın..."
-                  rows="3"
-              ></textarea>
-            </div>
-
-            <!-- Önizleme -->
-            <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Önizleme</label>
-              <div 
-                  class="h-[100px] flex items-center justify-center rounded-lg bg-white p-3 border-2 border-gray-200"
-                  :style="{
-                    color: textColor,
-                    fontSize: textSize + 'px',
-                    fontFamily: textFont
-                  }"
-              >
-                {{ textContent || 'Yazınız burada görünecek...' }}
-              </div>
-            </div>
-          </div>
-
-          <!-- İkinci Satır: Renk Seçimi -->
-          <div>
-            <label class="block text-sm font-semibold text-gray-700 mb-2">Renk</label>
-            <div class="grid grid-cols-9 gap-2">
-              <button
-                  v-for="color in textColors"
-                  :key="color"
-                  @click="textColor = color"
-                  class="w-8 h-8 rounded-full border-2 transition-all duration-200 hover:scale-110"
-                  :class="textColor === color ? 'border-gray-800 scale-110 shadow-lg' : 'border-gray-300'"
-                  :style="{ backgroundColor: color }"
-                  :title="color"
-              ></button>
-            </div>
-          </div>
-
-          <!-- Üçüncü Satır: Boyut ve Font -->
-          <div class="grid grid-cols-2 gap-4">
-            <!-- Boyut Ayarı -->
-            <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Boyut: {{ textSize }}px</label>
-              <div class="relative">
-                <input
-                    type="range"
-                    v-model="textSize"
-                    min="12"
-                    max="48"
-                    step="2"
-                    class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
-                />
-                <div class="flex justify-between text-xs text-gray-500 mt-1">
-                  <span>12px</span>
-                  <span>48px</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Font Seçimi -->
-            <div>
-              <label class="block text-sm font-semibold text-gray-700 mb-2">Font</label>
-              <select
-                  v-model="textFont"
-                  @focus="sideBar = false;"
-                  class="w-full p-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all duration-200"
-              >
-                <option value="Arial">Arial</option>
-                <option value="Times New Roman">Times New Roman</option>
-                <option value="Georgia">Georgia</option>
-                <option value="Verdana">Verdana</option>
-                <option value="Courier New">Courier New</option>
-                <option value="Comic Sans MS">Comic Sans MS</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal Footer -->
-        <div class="bg-gray-50 px-6 py-3 flex justify-end space-x-3">
-          <button 
-              @click="closeTextModal"
-              class="px-5 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 transition-all duration-200 font-medium"
-          >
-            İptal
-          </button>
-          <button 
-              @click="saveText" 
-              :disabled="!textContent.trim()"
-              class="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-200 font-medium flex items-center"
-          >
-            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-            </svg>
-            Kaydet
-          </button>
-        </div>
-      </div>
-    </div>
     <!-- SS Onay Modalı -->
     <div v-if="showSsModal" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-20">
       <div class="bg-white p-6 rounded-2xl shadow-lg w-80">
@@ -1703,7 +1375,6 @@ const ayracIcon = ref(false)
     <div
         v-if="!beyazSayfaAktif"
         class="relative overflow-hidden touch-none"
-        :class="{ 'text-cursor': textMode }"
         :style="{ touchAction: touchActionStyle, 'scroll-behavior': deviceType === 'pen' ? 'smooth' : 'auto' }"
         @pointerdown="pointerDown"
         @pointermove="pointerMove"
@@ -1786,44 +1457,6 @@ borderRadius:'10px',
           style="position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,0.8); padding: 5px; border: 1px solid #ccc; cursor: pointer;"
       >
         {{ freeText }}
-      </div>
-
-      <!-- Kayıtlı Yazılar -->
-      <div
-          v-for="text in texts"
-          :key="text.id"
-          class="text-element transition-transform duration-300 ease-in-out shadow-lg hover:shadow-xl relative group"
-          :class="{ 'disable-hover': drawing || noteCreationMode || textMode }"
-          :style="{
-            position: 'absolute',
-            left: text.x + 'px',
-            top: text.y + 'px',
-            color: text.color,
-            fontSize: text.size + 'px',
-            fontFamily: text.font,
-            backgroundColor: 'rgba(255,255,255,0.9)',
-            padding: '4px 8px',
-            borderRadius: '4px',
-            border: '1px solid rgba(0,0,0,0.1)',
-            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
-            zIndex: 15,
-            pointerEvents: 'auto'
-          }"
-          @click.stop
-          @pointerdown.stop
-      >
-        {{ text.content }}
-        <!-- Silme Butonu -->
-        <button
-            @click.stop.prevent="deleteText(text.id)"
-            @mousedown.stop.prevent
-            @touchstart.stop.prevent
-            class="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600 shadow-lg cursor-pointer"
-            style="z-index: 25; pointer-events: auto;"
-            title="Yazıyı sil"
-        >
-          ×
-        </button>
       </div>
 
       <!-- Arka Plan Resmi -->
@@ -1956,8 +1589,8 @@ borderRadius:'10px',
           class="py-3 px-2 rounded-l-lg text-white text-sm font-medium transition-all shadow-sm"
           :class="ssCreationMode ? 'bg-blue-600 hover:bg-blue-700 -translate-y-1' : 'bg-blue-500 hover:bg-blue-600'"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white hover:text-white " fill="none"
-             stroke="currentColor"  viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white hover:text-white" fill="none"
+             stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M15.293 3.293L6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"/>
         </svg>
@@ -2028,27 +1661,6 @@ borderRadius:'10px',
       </svg>
     </control-panelicon-buton>
     <icon-bilgi-cart class="text-gray-700">Not</icon-bilgi-cart>
-  </div>
-
-  <div class="group relative inline-block">
-    <control-panelicon-buton
-        cls="text"
-        :active="textMode"
-        @click="activateTextMode(); beyazSayfaAktif = false; showBookmarkPanel = false; noteCreationMode = false"
-        :class="{ 'translate-y-[-6px] shadow-black shadow-lg border-2 text-white': textMode }"
-    >
-      <svg class="h-6 w-6 text-gray-700 hover:text-blue-500 transition" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g stroke-width="0"></g>
-        <g stroke-linecap="round" stroke-linejoin="round"></g>
-        <g>
-          <path
-              d="M4 6h16M4 12h16M4 18h12"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          ></path>
-        </g>
-      </svg>
-    </control-panelicon-buton>
-    <icon-bilgi-cart class="text-gray-700">Yazı</icon-bilgi-cart>
   </div>
 
   <div class="group relative inline-block" @mouseleave="penMenuAcik = false">
@@ -2849,159 +2461,5 @@ button:hover {
 
 * {
   user-select: none;
-}
-
-/* Yazı imleci stili */
-.text-cursor {
-  cursor: text !important;
-}
-
-.text-cursor * {
-  cursor: text !important;
-}
-
-/* Yazı elementleri için pointer event ayarları */
-.text-element {
-  pointer-events: auto !important;
-}
-
-.text-element button {
-  pointer-events: auto !important;
-  z-index: 25 !important;
-}
-
-/* Silme butonu hover efekti */
-.text-element:hover button {
-  opacity: 1 !important;
-}
-
-/* Slider stilleri */
-.slider {
-  -webkit-appearance: none;
-  appearance: none;
-  background: transparent;
-  cursor: pointer;
-}
-
-.slider::-webkit-slider-track {
-  background: #e5e7eb;
-  height: 8px;
-  border-radius: 4px;
-}
-
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  background: #3b82f6;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  transition: all 0.2s ease;
-}
-
-.slider::-webkit-slider-thumb:hover {
-  background: #2563eb;
-  transform: scale(1.1);
-}
-
-.slider::-moz-range-track {
-  background: #e5e7eb;
-  height: 8px;
-  border-radius: 4px;
-  border: none;
-}
-
-.slider::-moz-range-thumb {
-  background: #3b82f6;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  transition: all 0.2s ease;
-}
-
-.slider::-moz-range-thumb:hover {
-  background: #2563eb;
-  transform: scale(1.1);
-}
-
-/* Modal animasyonları */
-@keyframes modalFadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9) translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-}
-
-.modal-enter-active {
-  animation: modalFadeIn 0.3s ease-out;
-}
-
-/* Renk butonları için özel stiller */
-.color-button {
-  position: relative;
-  overflow: hidden;
-}
-
-.color-button::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  background: rgba(255,255,255,0.3);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-}
-
-.color-button:hover::before {
-  width: 100%;
-  height: 100%;
-}
-
-/* Modal responsive ayarları */
-@media (max-width: 768px) {
-  .modal-content {
-    max-width: 95vw !important;
-    margin: 0 10px !important;
-  }
-  
-  .modal-grid {
-    grid-template-columns: 1fr !important;
-  }
-}
-
-/* Modal scroll ayarları */
-.modal-scroll {
-  scrollbar-width: thin;
-  scrollbar-color: #cbd5e0 #f7fafc;
-}
-
-.modal-scroll::-webkit-scrollbar {
-  width: 6px;
-}
-
-.modal-scroll::-webkit-scrollbar-track {
-  background: #f7fafc;
-  border-radius: 3px;
-}
-
-.modal-scroll::-webkit-scrollbar-thumb {
-  background: #cbd5e0;
-  border-radius: 3px;
-}
-
-.modal-scroll::-webkit-scrollbar-thumb:hover {
-  background: #a0aec0;
 }
 </style>
