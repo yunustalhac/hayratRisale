@@ -1956,8 +1956,8 @@ borderRadius:'10px',
           class="py-3 px-2 rounded-l-lg text-white text-sm font-medium transition-all shadow-sm"
           :class="ssCreationMode ? 'bg-blue-600 hover:bg-blue-700 -translate-y-1' : 'bg-blue-500 hover:bg-blue-600'"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white hover:text-white" fill="none"
-             stroke="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white hover:text-white " fill="none"
+             stroke="currentColor"  viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M15.293 3.293L6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"/>
         </svg>
