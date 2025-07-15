@@ -1004,6 +1004,23 @@ async function errorHandler(error, event) {
   // H3 will handle fallback
 }
 
+const script = `
+if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
+  Object.defineProperty(window, '__NUXT_DEVTOOLS_TIME_METRIC__', {
+    value: {},
+    enumerable: false,
+    configurable: true,
+  })
+}
+window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
+`;
+
+const _p4zUaBU0wmxoau0VJxcEYftxJJThjghHdfl3bairKO8 = (function(nitro) {
+  nitro.hooks.hook("render:html", (htmlContext) => {
+    htmlContext.head.push(`<script>${script}<\/script>`);
+  });
+});
+
 const rootDir = "/Users/yunustalhacoban/Desktop/mutalaa";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
@@ -1093,7 +1110,8 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _aJKUZgOR1G_tGfAZCTO5B0svbYfe7VAfGQYIvP8bsk
+  _p4zUaBU0wmxoau0VJxcEYftxJJThjghHdfl3bairKO8,
+_aJKUZgOR1G_tGfAZCTO5B0svbYfe7VAfGQYIvP8bsk
 ];
 
 const VueResolver = (_, value) => {
@@ -1755,7 +1773,7 @@ const styles$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 
 let client$2 = null;
 const data = defineEventHandler(async (event) => {
-  const uri = "mongodb+srv://yunustalha:yunus9590@ticaret.0eu40.mongodb.net/?retryWrites=true&w=majority&appName=ticaret";
+  const uri = process.env.MONGO_URI;
   try {
     if (!client$2) {
       client$2 = new MongoClient(uri);
@@ -1797,7 +1815,7 @@ const data$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 
 let client$1 = null;
 const istilahData = defineEventHandler(async (event) => {
-  const uri = "mongodb+srv://yunustalha:yunus9590@ticaret.0eu40.mongodb.net/?retryWrites=true&w=majority&appName=ticaret";
+  const uri = process.env.MONGO_URI;
   try {
     if (!client$1) {
       client$1 = new MongoClient(uri);
@@ -1847,7 +1865,7 @@ const mukayese_get = defineEventHandler(async (event) => {
       data: []
     };
   }
-  const uri = "mongodb+srv://yunustalha:yunus9590@ticaret.0eu40.mongodb.net/?retryWrites=true&w=majority&appName=ticaret";
+  const uri = process.env.MONGO_URI;
   try {
     if (!client) {
       client = new MongoClient(uri);

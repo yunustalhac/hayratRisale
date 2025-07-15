@@ -13,7 +13,7 @@ export default defineEventHandler(async (event) => {
     }
   }
 
-  const uri = "mongodb+srv://yunustalha:yunus9590@ticaret.0eu40.mongodb.net/?retryWrites=true&w=majority&appName=ticaret"
+  const uri = process.env.MONGO_URI
 
   try {
     // Eğer client bağlı değilse yeni bağlantı oluştur
